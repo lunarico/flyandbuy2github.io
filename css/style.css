@@ -1475,7 +1475,6 @@ footer #copy {
     width: 5em;
   }
 }
-
 @media (max-width: 1400px) {
   #main-prop .flags-container .flag-style {
     height: 7em;
@@ -1485,6 +1484,10 @@ footer #copy {
   #main-prop .property img {
     width: 9em;
   }
+
+  #main-prop .properties-active .properties-container img {
+    width: 6em;
+}
 
   #main-prop .properties-active #property-details-container {
     margin: 0 2em 0 5%;
@@ -1501,30 +1504,51 @@ footer #copy {
   .swiper-button-next:after, .swiper-button-prev:after {
     font-size: 2em;
   }
+
   .swiper-button-next, .swiper-button-prev {
     height: 3em;
     width: 3em;
   }
 
-/* .swiper-button-next {
-  right: 10px;
-}
-
-.swiper-button-prev {
-  left: 10px;
-}   */
   #main-prop .properties-active .miniature-images-container {
+    max-height: 20em;
     width: 20%;
   }
 
   #main-prop .properties-active .miniature-images-container img {
     height: 2.5em;
-    width: 4.23em;
+    width: 4.25em;
   }
 }
 @media (max-width: 1200px) {
   #main-prop .properties-container {
     width: 80%;
+  }
+
+  #main-prop .properties-active .properties-container {
+    margin-left: 6%;
+  }
+
+  #main-prop .properties-active .properties-container img {
+    width: 5.5em;
+  }
+
+  #main-prop .properties-active #property-details-container {
+    margin-left: 10%;
+  }
+
+  .swiper-container {
+    max-width: 450px; 
+  }
+
+    #main-prop .properties-active .miniature-images-container {
+    max-height: 16em;
+  }
+
+  #main-prop .properties-active .miniature-images-container img {
+    height: 1.75em;
+    margin: 3px;
+    width: 3.5em;
   }
 }
 @media (max-width: 992px) {
@@ -1544,6 +1568,46 @@ footer #copy {
   #main-prop .property img {
     width: 7.5em;
   }
+
+  #main-prop .properties-active .properties-container {
+    margin-left: 9%;
+  }
+
+  #main-prop .properties-active #property-details-container {
+    margin-left: 8%;
+  }
+
+  #main-prop .properties-active .properties-container img {
+    width: 5em;
+  }
+
+  #main-prop #property-details-container h3 {
+    font-size: 1.25em;
+  }
+
+  .swiper-container {
+    max-width: 350px; 
+  }
+
+  .swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 1.5em;
+  }
+
+  .swiper-button-next, .swiper-button-prev {
+    height: 2.25em;
+    width: 2.25em;
+  }
+
+  #main-prop .properties-active .miniature-images-container {
+    max-height: 12em;
+  }
+
+  #main-prop .properties-active .miniature-images-container img {
+    height: 1.25em;
+    margin: 2px;
+    width: 2.25em;
+  }
+
 }
 @media (max-width: 768px) {
 
@@ -1554,6 +1618,41 @@ footer #copy {
 
   #main-prop .property img {
     width: 6em;
+  }
+
+  #main-prop .properties-active #property-details-container {
+    margin-right: 1.25em;
+  } 
+
+  #main-prop .properties-active .properties-container img {
+    width: 4em;
+  }
+
+  #main-prop #property-details-container h3 {
+    font-size: 1em;
+  }
+
+  .swiper-container {
+    max-width: 275px; 
+  }
+
+  .swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 1em;
+  }
+
+  .swiper-button-next, .swiper-button-prev {
+    height: 1.75em;
+    width: 1.75em;
+  }
+
+  #main-prop .properties-active .miniature-images-container {
+    max-height: 10em;
+  }
+
+  #main-prop .properties-active .miniature-images-container img {
+    height: 1em;
+    margin: 1px;
+    width: 1.75em;
   }
 }
 @media (max-width: 576px) {
@@ -1578,5 +1677,49 @@ footer #copy {
   
   #main-prop .property img {
     width: 5em;
+  }
+
+ 
+  #main-prop #prop-container.properties-active {
+    justify-content: space-between;
+  }
+
+  #main-prop .properties-active .properties-container img {
+    margin: 0;
+    width: 3em;
+  }
+
+  #main-prop .properties-active #property-details-container {
+    margin-right: 25%;
+}
+
+  #main-prop #property-details-container h3 {
+    font-size: .75em;
+    margin-top: 1em;
+  }
+
+  .swiper-container {
+    margin: .75em auto;
+    max-width: 250px; 
+  }
+
+  .swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 1em;
+  }
+
+  .swiper-button-next, .swiper-button-prev {
+    height: 1.75em;
+    width: 1.75em;
+  }
+
+  #main-prop .properties-active .miniature-images-container {
+    display: flex;
+
+  }
+
+  #main-prop .properties-active .miniature-images-container img {
+    height: 1em;
+    margin: 1px;
+    width: 1.75em;
   }
 }

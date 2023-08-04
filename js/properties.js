@@ -119,12 +119,12 @@
 //   // Función para mostrar los detalles de la propiedad en el contenedor correspondiente
 //   // Función para mostrar los detalles de la propiedad en el contenedor correspondiente
 // function displayPropertyDetails(propertyName) {
-//   const propertyDescription = getPropertyDescription(propertyName);
+
 //   const propertyDetailsContainer = document.getElementById('property-details-container');
 //   propertyDetailsContainer.innerHTML = `
 //     <div class="property-details">
 //       <h3>${propertyName}</h3>
-//       <p>${propertyDescription}</p>
+  
 //     </div>
 //   `;
 
@@ -198,6 +198,14 @@
 //         prevEl: '.swiper-button-prev',
 //       },
 //     });
+
+//         // Luego de inicializar el slider, mostrar la descripción
+//         const propertyDescription = getPropertyDescription(propertyName);
+//         const propertyDescriptionContainer = document.createElement('div');
+//         propertyDescriptionContainer.classList.add('property-description');
+//         propertyDescriptionContainer.innerHTML = `<p>${propertyDescription}</p>`;
+//         propertyDetailsContainer.appendChild(propertyDescriptionContainer);
+
 //   });
 // }
 
@@ -295,7 +303,6 @@
 //   selectFlag(document.querySelector(`.flag[data-filter="${country}"]`)); // Marcar la bandera del país seleccionado
 //   mostrarPropertiesForCountry(country);
 // });
-
 
 
 let currentLanguage = localStorage.getItem('selectedLanguage') || 'es';
@@ -505,6 +512,26 @@ function displayPropertyDetails(propertyName) {
         propertyDescriptionContainer.classList.add('property-description');
         propertyDescriptionContainer.innerHTML = `<p>${propertyDescription}</p>`;
         propertyDetailsContainer.appendChild(propertyDescriptionContainer);
+
+
+        if (window.innerWidth < 576) {
+          // Si la resolución es menor a 576px, mostrar las imágenes en miniatura debajo del slider
+          const miniatureImagesContainer = document.querySelector('.miniature-images-container');
+          miniatureImagesContainer.innerHTML = ''; // Limpiar el contenedor antes de agregar las miniaturas
+      
+          property.imagenes.forEach((imageUrl, index) => {
+            const miniatureImage = document.createElement('img');
+            miniatureImage.src = imageUrl;
+            miniatureImage.alt = 'Miniature Image';
+            miniatureImage.addEventListener('click', () => {
+              swiper.slideTo(index); // Desplazar el slider a la imagen correspondiente cuando se hace clic en la miniatura
+            });
+            miniatureImagesContainer.appendChild(miniatureImage);
+          });
+      
+          // Mostrar el contenedor de miniaturas debajo del slider
+          propertySliderContainer.insertAdjacentElement('afterend', miniatureImagesContainer);
+        }
 
   });
 }

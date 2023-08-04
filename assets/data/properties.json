@@ -1,0 +1,136 @@
+{
+  "properties": {
+    "usa": [
+      {
+        "name": "Ella",
+        "logo": "../assets/img/propUsa/Ella/ella.jpg",
+        "imagenes": [
+          "../assets/img/propUsa/Ella/ella1.jpg",
+          "../assets/img/propUsa/Ella/ella2.jpg",
+          "../assets/img/propUsa/Ella/ella3.jpg"
+        ]
+      },
+      {
+        "name": "Ora by Casa Tua",
+        "logo": "../assets/img/propUsa/Ora/ora.png",
+        "imagenes": [
+          "../assets/img/propUsa/Ora/ora1.jpg",
+          "../assets/img/propUsa/Ora/ora2.jpg",
+          "../assets/img/propUsa/Ora/ora3.jpg",
+          "../assets/img/propUsa/Ora/ora4.jpg",
+          "../assets/img/propUsa/Ora/ora5.jpg"
+        ]
+      },
+      {
+        "name": "The Elser",
+        "logo": "../assets/img/propUsa/The-Elser/theElser.png",
+        "imagenes": [
+          "../assets/img/propUsa/The-Elser/theElser1.jpg",
+          "../assets/img/propUsa/The-Elser/theElser2.jpg",
+          "../assets/img/propUsa/The-Elser/theElser3.jpg",
+          "../assets/img/propUsa/The-Elser/theElser4.jpg",
+          "../assets/img/propUsa/The-Elser/theElser5.jpg",
+          "../assets/img/propUsa/The-Elser/theElser6.jpg",
+          "../assets/img/propUsa/The-Elser/theElser7.jpg",
+          "../assets/img/propUsa/The-Elser/theElser8.jpg",
+          "../assets/img/propUsa/The-Elser/theElser9.jpg",
+          "../assets/img/propUsa/The-Elser/theElser10.jpg",
+          "../assets/img/propUsa/The-Elser/theElser11.jpg",
+          "../assets/img/propUsa/The-Elser/theElser12.jpg",
+          "../assets/img/propUsa/The-Elser/theElser13.jpg",
+          "../assets/img/propUsa/The-Elser/theElser14.jpg",
+          "../assets/img/propUsa/The-Elser/theElser15.jpg",
+          "../assets/img/propUsa/The-Elser/theElser16.jpg",
+          "../assets/img/propUsa/The-Elser/theElser17.jpg",
+          "../assets/img/propUsa/The-Elser/theElser18.jpg",
+          "../assets/img/propUsa/The-Elser/theElser19.jpg",
+          "../assets/img/propUsa/The-Elser/theElser20.jpg",
+          "../assets/img/propUsa/The-Elser/theElser21.jpg",
+          "../assets/img/propUsa/The-Elser/theElser22.jpg",
+          "../assets/img/propUsa/The-Elser/theElser23.jpg",
+          "../assets/img/propUsa/The-Elser/theElser24.jpg",
+          "../assets/img/propUsa/The-Elser/theElser25.jpg",
+          "../assets/img/propUsa/The-Elser/theElser26.jpg",
+          "../assets/img/propUsa/The-Elser/theElser27.jpg",
+          "../assets/img/propUsa/The-Elser/theElser28.jpg",
+          "../assets/img/propUsa/The-Elser/theElser29.jpg",
+          "../assets/img/propUsa/The-Elser/theElser30.jpg",
+          "../assets/img/propUsa/The-Elser/theElser31.jpg",
+          "../assets/img/propUsa/The-Elser/theElser32.jpg",
+          "../assets/img/propUsa/The-Elser/theElser33.jpg",
+          "../assets/img/propUsa/The-Elser/theElser34.jpg",
+          "../assets/img/propUsa/The-Elser/theElser35.jpg"
+        ]
+      },
+      {
+        "name": "Visions at Brickell Station",
+        "logo": "../assets/img/propUsa/Visions/visions.png",
+        "imagenes": [
+          "../assets/img/propUsa/Visions/visions1.jpg",
+          "../assets/img/propUsa/Visions/visions2.jpg",
+          "../assets/img/propUsa/Visions/visions3.jpg",
+          "../assets/img/propUsa/Visions/visions4.jpg",
+          "../assets/img/propUsa/Visions/visions5.jpg",
+          "../assets/img/propUsa/Visions/visions6.jpg"
+        ]
+      },
+      {
+        "name": "West Eleventh Residences Miami",
+        "logo": "../assets/img/propUsa/West-Eleventh/westEleventh.png",
+        "imagenes": [
+          "../assets/img/propUsa/West-Eleventh/westEleventh1.jpg",
+          "../assets/img/propUsa/West-Eleventh/westEleventh2.jpg",
+          "../assets/img/propUsa/West-Eleventh/westEleventh3.jpg",
+          "../assets/img/propUsa/West-Eleventh/westEleventh4.jpg",
+          "../assets/img/propUsa/West-Eleventh/westEleventh5.jpg",
+          "../assets/img/propUsa/West-Eleventh/westEleventh6.jpg",
+          "../assets/img/propUsa/West-Eleventh/westEleventh7.jpg",
+          "../assets/img/propUsa/West-Eleventh/westEleventh8.jpg",
+          "../assets/img/propUsa/West-Eleventh/westEleventh9.jpg"
+        ]
+      },
+      {
+        "name": "Domus Brickell Park",
+        "logo": "../assets/img/propUsa/Domus/domus.png",
+        "imagenes": [
+          "../assets/img/propUsa/Domus/domus1.jpg",
+          "../assets/img/propUsa/Domus/domus2.jpg",
+          "../assets/img/propUsa/Domus/domus3.jpg",
+          "../assets/img/propUsa/Domus/domus4.jpg",
+          "../assets/img/propUsa/Domus/domus5.jpg",
+          "../assets/img/propUsa/Domus/domus6.jpg",
+          "../assets/img/propUsa/Domus/domus7.jpg"
+        ]
+      },
+      {
+        "name": "Urban Living With Character",
+        "logo": "../assets/img/propUsa/urban.jpg"
+      }
+    ],
+    "uru": [
+    ],
+    "arg": [
+    ]
+  },
+
+  "descriptions": {
+    "es": {
+      "Ella": "Descipcion Ella",
+      "Ora by Casa Tua": "Descipcion Ora",
+      "The Elser": "Descipcion Elser",
+      "Visions at Brickell Station": "Descipcion Visions",
+      "West Eleventh Residences Miami": "Descipcion West Eleventh",
+      "Domus Brickell Park": "Descripción Domus",
+      "Urban Living With Character": "Descripción Urban"
+    },
+    "en": {
+      "Ella": "Desciption Ella",
+      "Ora by Casa Tua": "sdfkjkgdfgjldkOra",
+      "The Elser": "Description Elser",
+      "Visions at Brickell Station": "Description Visions",
+      "West Eleventh Residences Miami": "Description West Eleventh",
+      "Domus Brickell Park": "Descriptión Domus",
+      "Urban Living With Character": "Descriptión Urban"
+    }
+  }
+}

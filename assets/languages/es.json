@@ -1,0 +1,45 @@
+{   
+    "meta": {
+        "description-index":"Fly and Buy: Tu socio integral en Turismo e Inversiones inmobiliarias. Viaja e invierte con confianza en nuestras propiedades en Estados Unidos, Uruguay y Argentina. Asesoramiento experto y resultados garantizados en un solo lugar",
+        "keywords-index":"VIAJES, INVERSIONES, PROPIEDADES, FLY AND BUY, TURISMO, REAL ESTATE, USA, URUGUAY, ARGENTINA, ASESORAMIENTO, CONFIANZA",
+        "description-prop":"Explora nuestras exclusivas propiedades en USA, Uruguay y Argentina. Fly and Buy te ofrece una selección única de opciones para inversión y vivienda. Asesoramiento personalizado y centralización de servicios en un solo canal",
+        "keywords-prop":"PROPIEDADES EN VENTA, INVERSIONES INOBILIARIAS, FLY AND BUY, ESTADOS UNIDOS, URUGUAY, ARGENTINA, ASESORAMIENTO PERSONALIZADO, COMPRA DE PROPIEDADES, REAL ESTATE"
+    },
+
+    "nav": {
+        "link1": "Sobre Nosotros",
+        "link2": "Qué Hacemos",
+        "link3": "Propiedades",
+        "link4": "Contacto"
+    },
+
+    "aboutUs": {
+        "contact-button": "Contactanos",
+        "intro": "Somos Fly and Buy, una empresa integral de servicios al cliente con más de 10 años de experiencia en el Rubro Turístico y Real Estate.<br>Nuestra misión es brindarte la oportunidad de Viajar e Invertir con el mejor asesoramiento del mercado, centralizando todas tus necesidades en un solo canal."
+    },
+
+    "services": {
+        "general-info": "En Fly and Buy, te ofrecemos las herramientas y el asesoramiento perfecto para que puedas confiar en nosotros con tu actual y/o futura propiedad. Con tan solo un click, todos tus servicios y consultas serán resueltas por un solo intermediario, unificando dos actividades en un solo lugar y garantizando los mejores resultados.",
+        "travel": "Viajes",
+        "service-travel": "¿Quieres invertir y vacacionar en el destino de tus sueños? Nuestro equipo te guiará para que encuentres la propiedad ideal en el lugar perfecto.",
+        "refactoring": "Reformas",
+        "service-refactoring": "Reformamos tu propiedad según tus deseos, para que sea un lugar único y especial.",
+        "investment": "Inversión",
+        "service-investment": "Te brindamos asesoría personalizada para comprar propiedades en USA, Uruguay y Argentina, asegurándote la mejor inversión.",
+        "building": "Propiedades",
+        "service-building": "Nos encargamos de alquilar, vender, comprar y administrar tu propiedad, asegurándonos de que obtengas el máximo provecho de ella.",
+        "consultancy": "Asesoramiento",
+        "service-consultancy": "¿Tienes dudas o preguntas? ¡No te preocupes! Nuestro equipo de expertos te asesorará y recomendará en todo momento.",
+        "opportunities": "Oportunidades",
+        "service-opportunities": "¡Aprovecha nuestras oportunidades únicas! Te mantendremos informado sobre promociones, ofertas y ventas especiales que no querrás dejar pasar."
+    },
+
+    "properties": {
+        "title": "Encontrá tu propiedad"
+    },
+
+    "contact": {
+        "contact-title": "Contactanos!",
+        "contact-info": "En Fly and Buy, la satisfacción del cliente es nuestra máxima prioridad. Nuestro equipo altamente capacitado y profesional se asegurará de que tus sueños de viajar e invertir se hagan realidad. ¡No dudes en contactarnos y comenzar esta emocionante aventura juntos!"
+    }
+}

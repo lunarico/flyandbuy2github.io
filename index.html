@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!--META TAGS-->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" data-section="meta" data-value="description-index"
+        content="Fly and Buy: Tu socio integral en Turismo e Inversiones inmobiliarias. Viaja e invierte con 
+                confianza en nuestras propiedades en Estados Unidos, Uruguay y Argentina. Asesoramiento experto y 
+                resultados garantizados en un solo lugar">
+  <meta name="keywords" data-section="meta" data-value="keywords-index" 
+        content="VIAJES, INVERSIONES, PROPIEDADES, FLY AND BUY, TURISMO, REAL ESTATE, USA, URUGUAY,ARGENTINA, 
+                ASESORAMIENTO, CONFIANZA">
+  
+  <!--TITULO-->
+  <link rel="icon" type="image/x-icon" href="./assets/img/logoHeader.png" />
+  <title>Fly and Buy</title>
+
+  <!-- ESTILO -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="./css/style.css" rel="stylesheet">
+
+  <!-- ÍCONOS -->
+  <script src="https://kit.fontawesome.com/6b9569e6d4.js" crossorigin="anonymous"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></script> -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+  <!-- ANIMACIONES -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+  <a href="https://api.whatsapp.com/send?phone=+5491158383494&text=Hola!%20Quisiera%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre" class="whatsapp" target="_blank"> 
+    <i class="fa fa-whatsapp whatsapp-icon" alt="Logo Whats App"></i>
+  </a>
+
+  <header id="header" class="fixed-top">
+    <div class="d-flex align-items-center justify-content-between">
+      <div class="logo">
+        <a href="#aboutUs">
+          <img src="./assets/img/logo.png" alt="Logo Fly and Buy" class="sk-chase-dot">
+        </a>
+        <span>
+          <h1 class="title">Fly and buy</h1>
+          <p class="title">Travel and real state advisor</p>
+        </span>
+      </div>
+      <nav id="navbar" class="navbar">
+        <i class="fa-solid fa-bars navbar-toggle" id="toggle"></i>
+        <ul class="nav-menu d-lg-flex align-items-center justify-content-between">
+          <li><a href="#aboutUs" class="nav-link active" data-section="nav" data-value="link1">
+              Sobre Nosotros
+            </a>
+          </li>
+          <li><a href="#whatWeDo" class="nav-link" data-section="nav" data-value="link2">
+              Qué Hacemos</a>
+          </li>
+          <li class="dropdown">
+            <a href="#properties" class="nav-link dropdown-toggle" data-section="nav" data-value="link3">
+              Propiedades
+            </a>
+            <ul id="subnav" class="subnav">
+              <li>
+                <a href="./properties.html?country=usa">USA
+                  <img src="./assets/img/banderas/usa.png" alt="Bandera USA">
+                </a>
+              </li>
+              <li>
+                <a href="./properties.html?country=uru">Uruguay
+                  <img src="./assets/img/banderas/uruguay.png" alt="Bandera Uruguay">
+                </a>
+              </li>
+              <li>
+                <a href="./properties.html?country=arg">Argentina
+                  <img src="./assets/img/banderas/argentina.png" alt="Bandera Argentina">
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li id="contacto">
+            <a href="#contact" class="nav-link" data-section="nav" data-value="link4">
+              Contacto</a>
+          </li>
+        </ul>
+      </nav>
+      <div id="languages">
+        <button data-language="es" class="button-language button-active">
+          <img src="./assets/img/languages/spain.png" alt="spanish" class="language-icon" alt="Español">
+        </button>
+        <button data-language="en" class="button-language">
+          <img src="./assets/img/languages/england.png" alt="english" class="language-icon" alt="English">
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="aboutUs" class="section">
+      <div class="box-intro d-flex">
+        <p class="intro" data-section="aboutUs" data-value="intro">
+          Somos Fly and Buy, una empresa integral de servicios al cliente con más de 10 años de experiencia en el 
+          Rubro Turístico y Real Estate.<br>Nuestra misión es brindarte la oportunidad de Viajar e Invertir con el 
+          mejor asesoramiento del mercado, centralizando todas tus necesidades en un solo canal.
+        </p>
+      </div>
+      <button class="contact">
+        <a href="#contact" data-section="aboutUs" data-value="contact-button">Contactanos</a>
+      </button>
+    </section>
+
+    <section id="whatWeDo" class="section">
+      <p class="intro-whatWeDo" data-section="services" data-value="general-info">
+        En Fly and Buy, te ofrecemos las herramientas y el asesoramiento perfecto para que puedas confiar en 
+        nosotros con tu actual y/o futura propiedad. Con tan solo un click, todos tus servicios y consultas serán 
+        resueltas por un solo intermediario, unificando dos actividades en un solo lugar y garantizando los mejores 
+        resultados.
+      </p>
+      <div id="accordion" class="d-flex">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4 services">
+          <div class="card-service" data-toggle="collapse" data-target="#travel" aria-expanded="true" aria-controls="travel">
+            <span class="material-symbols-outlined">flight</span>
+            <h6 data-section="services" data-value="travel">Viajes</h6>
+          </div>
+          <div id="travel" class="collapse text-center animate__animated animate__fadeIn">
+            <p data-section="services" data-value="service-travel">
+              ¿Quieres invertir y vacacionar en el destino de tus sueños? Nuestro equipo te guiará para que 
+              encuentres la propiedad ideal en el lugar perfecto.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4 services">
+          <div class="card-service" data-toggle="collapse" data-target="#refactoring" aria-expanded="true" aria-controls="refactoring">
+            <span class="material-symbols-outlined">construction</span>
+            <h6 data-section="services" data-value="refactoring">Reformas</h6>
+          </div>
+          <div id="refactoring" class="collapse text-center">
+            <p data-section="services" data-value="service-refactoring">
+              Reformamos tu propiedad según tus deseos, para que sea un lugar único y especial.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4 services">
+          <div class="card-service" data-toggle="collapse" data-target="#investment" aria-expanded="true" aria-controls="investment">
+            <span class="material-symbols-outlined">savings</span>
+            <h6 data-section="services" data-value="investment">Inversión</h6>
+          </div>
+          <div id="investment" class="collapse text-center">
+            <p data-section="services" data-value="service-investment">
+              Te brindamos asesoría personalizada para comprar propiedades en USA, Uruguay y Argentina, 
+              asegurándote la mejor inversión.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4 services">
+          <div class="card-service" data-toggle="collapse" data-target="#building" aria-expanded="true" aria-controls="building">
+            <span class="material-symbols-outlined">apartment</span>
+            <h6 data-section="services" data-value="building">Propiedades</h6>
+          </div>
+          <div id="building" class="collapse text-center">
+            <p data-section="services" data-value="service-building">
+              Nos encargamos de alquilar, vender, comprar y administrar tu propiedad, asegurándonos de que obtengas 
+              el máximo provecho de ella.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4 services">
+          <div class="card-service" data-toggle="collapse" data-target="#consultancy" aria-expanded="true" aria-controls="consultancy">
+            <span class="material-symbols-outlined">psychology_alt</span>
+            <h6 data-section="services" data-value="consultancy">Asesoramiento</h6>
+          </div>
+          <div id="consultancy" class="collapse text-center">
+            <p data-section="services" data-value="service-consultancy">
+              ¿Tienes dudas o preguntas? ¡No te preocupes! Nuestro equipo de expertos te asesorará y recomendará en 
+              todo momento.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4 services">
+          <div class="card-service" data-toggle="collapse" data-target="#opportunities" aria-expanded="true" aria-controls="opportunities">
+            <span class="material-symbols-outlined">paid</span>
+            <h6 data-section="services" data-value="opportunities">Oportunidades</h6>
+          </div>
+          <div id="opportunities" class="collapse text-center">
+            <p data-section="services" data-value="service-opportunities">
+              ¡Aprovecha nuestras oportunidades únicas! Te mantendremos informado sobre promociones, ofertas y 
+              ventas especiales que no querrás dejar pasar.
+            </p>
+          </div>
+        </div>
+    </section>
+
+    <section id="properties" class="section">
+      <h2 data-section="properties" data-value="title">Encontrá tu propiedad</h2>
+      <div class="flags-container">
+        <a class="flag" data-filter="usa">
+          <div class="flag-style" style="background-image: url(./assets/img/banderas/usa.png)" alt="USA"></div>
+        </a>
+        <a class="flag" data-filter="uru">
+          <div class="flag-style" style="background-image: url(./assets/img/banderas/uruguay.png)" alt="Uruguay"></div>
+        </a>
+        <a class="flag" data-filter="arg">
+          <div class="flag-style" style="background-image: url(./assets/img/banderas/argentina.png)" alt="Argentina"></div>
+        </a>   
+      </div>
+      <div class="properties-container"></div>
+    </section>
+
+    <section id="contact" class="section"> 
+      <h2 data-section="contact" data-value="contact-title">Contactanos!</h2>
+      <p class="intro-contact" data-section="contact" data-value="contact-info">
+        En Fly and Buy, la satisfacción del cliente es nuestra máxima prioridad. Nuestro equipo altamente 
+        capacitado y profesional se asegurará de que tus sueños de viajar e invertir se hagan realidad. ¡No dudes en 
+        contactarnos y comenzar esta emocionante aventura juntos!
+      </p>
+      <div class="row contact-container">
+        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+          <div class="flipper">
+            <div class="front">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="back">
+              <p class="info-contact">+5491158383494</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+          <div class="flipper">
+            <div class="front">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="back">
+              <p>info@flyandbuy.com</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+          <div class="flipper">
+            <div class="front">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="back">
+              <p>Virrey Loreto 3408, CABA, Argentina</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+          <div class="flipper">
+            <div class="front">
+              <i id="insta" class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="back">
+              <p>@flyandbuyar</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+          <div class="flipper">
+            <div class="front">
+              <i class="fa-solid fa-house"></i>
+            </div>
+            <div class="back">
+              <p>xx-xxxxxxxx</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a id="copy" href="https://lunarico.netlify.app/" target="_blank">Copyright © 2023</a>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  <script src="./js/main.js"></script>
+
+</body>
+</html>

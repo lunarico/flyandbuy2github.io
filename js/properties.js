@@ -843,13 +843,8 @@ let swiper;
   
       function adjustMiniaturesPosition() {
         if (window.innerWidth >= 576) {
-          miniatureContainer.style.display = 'flex';
-          miniatureContainer.style.flexDirection = 'column';
-          miniatureContainer.style.alignItems = 'flex-end';
           miniatureContainer.style.position = 'absolute';
-          miniatureContainer.style.top = '50%';
           miniatureContainer.style.right = 0;
-          miniatureContainer.style.transform = 'translateY(-50%)';
         } else {
           miniatureContainer.style.display = 'block';
           miniatureContainer.style.position = 'static';

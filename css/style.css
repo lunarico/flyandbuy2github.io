@@ -1411,13 +1411,11 @@ footer #copy {
   overflow: hidden;
 }
 
-/* Estilos para cada slide */
 .swiper-slide img {
   width: 100%;
   height: auto;
 }
 
-/* Estilos para las flechas de navegación del slider */
 .swiper-button-next, .swiper-button-prev {
   background-color: var(--color11);
   border-radius: 50%;
@@ -1441,38 +1439,53 @@ footer #copy {
 }
 
 #main-prop .properties-active .miniature-images-container {
+  display: block;
   margin: 3em 3em 0 0;
+  margin-top: -27em;
   max-height: 25em;
   overflow-y: auto;
   width: 25%;
+  
 }
 
 #main-prop .properties-active .miniature-images-container img {
-  height: 5em;
-  width: 7em;
-  object-fit: cover;
-  margin: 0;
-  cursor: pointer;
   border: 2px solid transparent;
+  cursor: pointer;
+  height: 5.5em;
+  margin: 0;
+  object-fit: cover;
   transition: border-color 0.2s ease-in-out;
+  width: 8.5em;
 }
 
 #main-prop .properties-active .miniature-images-container img:hover {
-  border-color: #000;
+  border-color: var(--color11)
+}
+
+#main-prop #property-details-container .property-description {
+  font-size: 1.5em;
+  margin-top: 2em;
+}
+
+.miniature-images-right {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
 }
 
 @media (max-width: 1695px) {
   #main-prop .properties-active .properties-container {
     margin-left: 5%;
-}
+  }
 
-  main-prop .properties-active .miniature-images-container {
-    width: 30%;
+  #main-prop .properties-active .miniature-images-container {
+    margin-right: 2em;
   }
 
   #main-prop .properties-active .miniature-images-container img {
-    height: 4.5em;
-    width: 6em;
+    height: 4.75em;
+    width: 7.5em;
   }
 }
 @media (max-width: 1400px) {
@@ -1487,11 +1500,7 @@ footer #copy {
 
   #main-prop .properties-active .properties-container img {
     width: 6em;
-}
-
-  #main-prop .properties-active #property-details-container {
-    margin: 0 2em 0 5%;
-}
+  }
 
   #main-prop #property-details-container h3 {
     font-size: 1.5em;
@@ -1511,13 +1520,17 @@ footer #copy {
   }
 
   #main-prop .properties-active .miniature-images-container {
-    max-height: 20em;
-    width: 20%;
+    margin-top: -21.5em;
+    max-height: 19.5em;
   }
 
   #main-prop .properties-active .miniature-images-container img {
-    height: 3.75em;
-    width: 5.25em;
+    height: 4em;
+    width: 6em;
+  }
+
+  #main-prop #property-details-container .property-description {
+    font-size: 1.25em;
   }
 }
 @media (max-width: 1200px) {
@@ -1541,13 +1554,14 @@ footer #copy {
     max-width: 450px; 
   }
 
-    #main-prop .properties-active .miniature-images-container {
+  #main-prop .properties-active .miniature-images-container {
+    margin-top: -18em;
     max-height: 16em;
   }
 
   #main-prop .properties-active .miniature-images-container img {
-    height: 3em;
-    width: 4.25em;
+    height: 3.5em;
+    width: 5.5em;
   }
 }
 @media (max-width: 992px) {
@@ -1598,14 +1612,18 @@ footer #copy {
   }
 
   #main-prop .properties-active .miniature-images-container {
-    max-height: 12em;
+    margin-top: -14.5em;
+    max-height: 13em;
   }
 
   #main-prop .properties-active .miniature-images-container img {
-    height: 2em;
-    width: 2.75em;
+    height: 3em;
+    width: 4.5em;
   }
 
+  #main-prop #property-details-container .property-description {
+    font-size: 1.125em;
+  }
 }
 @media (max-width: 768px) {
 
@@ -1644,12 +1662,18 @@ footer #copy {
   }
 
   #main-prop .properties-active .miniature-images-container {
+    margin-top: -11.5em;
     max-height: 10em;
+    width: 20%;
   }
 
   #main-prop .properties-active .miniature-images-container img {
-    height: 1.5em;
-    width: 2em;
+    height: 2em;
+    width: 3em;
+  }
+
+  #main-prop #property-details-container .property-description {
+    font-size: .938em;
   }
 }
 @media (max-width: 576px) {
@@ -1715,16 +1739,4 @@ footer #copy {
     font-size: .688em;
     margin-top: 1.5em;
   }
-}
-
-
-/* Estilo para miniaturas en la posición derecha en pantallas grandes */
-.miniature-images-right {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
 }

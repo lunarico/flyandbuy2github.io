@@ -1741,6 +1741,7 @@ footer #copy {
 
 #logo-description span h1{
   font-size: 1.75em;
+  font-weight: 400;
 }
 
 #logo-description span p{
@@ -1872,6 +1873,7 @@ footer #copy {
 
   #logo-description span h1 {
     font-size: .75em;
+    font-weight: 300;
   }
 
   #logo-description span p {

@@ -1433,11 +1433,11 @@ footer #copy {
 }
 
 .swiper-button-next {
-  right: 10px;
+  margin-right: -0.325em;
 }
 
 .swiper-button-prev {
-  left: 10px;
+  margin-left: -0.325em;
 }
 
 #main-prop .properties-active .miniature-images-container {
@@ -1676,19 +1676,10 @@ footer #copy {
     width: 5em;
   }
 
- 
-  #main-prop #prop-container.properties-active {
-    justify-content: space-between;
-  }
-
   #main-prop .properties-active .properties-container img {
     margin: 0;
     width: 3em;
   }
-
-  #main-prop .properties-active #property-details-container {
-    
-}
 
   #main-prop #property-details-container h3 {
     font-size: .75em;
@@ -1705,21 +1696,25 @@ footer #copy {
   }
 
   .swiper-button-next, .swiper-button-prev {
-    height: 1.75em;
-    width: 1.75em;
+    height: 1.5em;
+    width: 1.5em;
   }
 
   #main-prop .properties-active .miniature-images-container {
     margin: 0;
+    max-height: 3.25em;
     width: 100%;
-
-    
   }
 
   #main-prop .properties-active .miniature-images-container img {
-    height: 1em;
+    height: 1.75em;
     margin: 0;
-    width: 1.75em;
+    width: 2.5em;
+  }
+
+  #main-prop .properties-active .property-description {
+    font-size: .688em;
+    margin-top: 1.5em;
   }
 }
 

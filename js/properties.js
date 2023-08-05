@@ -464,7 +464,16 @@ let swiper;
         <div class="swiper-button-next"></div>
       </div>
       <div class="miniature-images-container"></div>
-      <div class="property-description">${getPropertyDescription(propertyName)}</div>
+      <div id="logo-description">
+        <img src="../NEGRO.png" alt="Logo Fly and Buy">
+        <span>
+          <h1 class="title">Fly and buy</h1>
+          <p class="title">Travel and real state advisor</p>
+        </span>
+      </div>
+      <div class="property-description">
+        ${getPropertyDescription(propertyName)}
+      </div>
     `;
   
     const propContainer = document.getElementById('prop-container');

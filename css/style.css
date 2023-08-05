@@ -1400,10 +1400,10 @@ footer #copy {
 
 #main-prop .properties-active #property-details-container {
   margin: 0 3em 0 10%;
-  text-align: center;
 }
 
 #main-prop #property-details-container h3 {
+  text-align: center;
   text-transform: uppercase;
 }
 
@@ -1683,7 +1683,7 @@ footer #copy {
   #main-prop .flags-container {
     flex-direction: row;
     margin-bottom: 0;
-    padding: 2em 0 0 0 ;
+    padding: 0 ;
   }
 
   #main-prop .flags-container .flag-style {
@@ -1744,15 +1744,125 @@ footer #copy {
   }
 }
 
+/* DESCRIPTION PROPERTIES */
 
-
-
-/* Agrega estilos para mostrar el menú desplegable */
-.nav-menu.show {
-  display: block;
+#logo-description {
+  display: flex;
+  margin-top: 4em;
 }
 
-/* Estilos para ocultar el menú por defecto */
-.nav-menu {
-  display: none;
+#logo-description img {
+  width: 12em;
+}
+
+#logo-description span {
+  margin-left: -3em;
+  text-transform: uppercase;
+}
+
+#logo-description span h1{
+  font-size: 1.75em;
+}
+
+#logo-description span p{
+  font-size: .75em;
+}
+
+@media (max-width: 1400px) {
+  #logo-description {
+    margin-top: 3em;
+  }
+
+  #logo-description img {
+    width: 10em;
+  }
+
+  #logo-description span h1{
+    font-size: 1.25em;
+  }
+  
+  #logo-description span p{
+    font-size: .5em;
+  }
+}
+@media (max-width: 1200px) {
+  #logo-description {
+    margin-top: 2.5em;
+  }
+
+  #logo-description img {
+    width: 8.5em;
+  }
+
+  #logo-description span {
+    margin-left: -2.5em;
+  }
+
+  #logo-description span h1{
+    font-size: 1em;
+    margin-bottom: 0.25em;
+  }
+  
+  #logo-description span p{
+    font-size: .438em;
+  }
+}
+@media (max-width: 992px) {
+  #logo-description {
+    margin-top: 2em;
+  }
+
+  #logo-description img {
+    width: 7em;
+  }
+
+  #logo-description span {
+    margin-left: -2em;
+  }
+
+  #logo-description span h1{
+    font-size: .875em;
+  }
+}
+@media (max-width: 768px) {
+  #logo-description {
+    margin-top: 1.5em;
+  }
+
+  #logo-description img {
+    width: 5.5em;
+  }
+
+  #logo-description span {
+    margin-left: -1.5em;
+  }
+
+  #logo-description span h1 {
+    font-size: .75em;
+  }
+
+  #logo-description span p {
+    font-size: .375em;
+  }
+}
+@media (max-width: 576px) {
+  #logo-description {
+    margin-top: 1.25em;
+  }
+
+  #logo-description img {
+    width: 4em;
+  }
+
+  #logo-description span {
+    margin-left: -1em;
+  }
+
+  #logo-description span h1 {
+    font-size: .625em;
+  }
+
+  #logo-description span p {
+    font-size: .313em;
+  }
 }

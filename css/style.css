@@ -1448,10 +1448,10 @@ footer #copy {
 }
 
 #main-prop .properties-active .miniature-images-container img {
-  height: 4em;
-  width: 6em;
+  height: 5em;
+  width: 7em;
   object-fit: cover;
-  margin: 5px;
+  margin: 0;
   cursor: pointer;
   border: 2px solid transparent;
   transition: border-color 0.2s ease-in-out;
@@ -1471,8 +1471,8 @@ footer #copy {
   }
 
   #main-prop .properties-active .miniature-images-container img {
-    height: 3em;
-    width: 5em;
+    height: 4.5em;
+    width: 6em;
   }
 }
 @media (max-width: 1400px) {
@@ -1516,8 +1516,8 @@ footer #copy {
   }
 
   #main-prop .properties-active .miniature-images-container img {
-    height: 2.5em;
-    width: 4.25em;
+    height: 3.75em;
+    width: 5.25em;
   }
 }
 @media (max-width: 1200px) {
@@ -1546,9 +1546,8 @@ footer #copy {
   }
 
   #main-prop .properties-active .miniature-images-container img {
-    height: 1.75em;
-    margin: 3px;
-    width: 3.5em;
+    height: 3em;
+    width: 4.25em;
   }
 }
 @media (max-width: 992px) {
@@ -1603,9 +1602,8 @@ footer #copy {
   }
 
   #main-prop .properties-active .miniature-images-container img {
-    height: 1.25em;
-    margin: 2px;
-    width: 2.25em;
+    height: 2em;
+    width: 2.75em;
   }
 
 }
@@ -1650,9 +1648,8 @@ footer #copy {
   }
 
   #main-prop .properties-active .miniature-images-container img {
-    height: 1em;
-    margin: 1px;
-    width: 1.75em;
+    height: 1.5em;
+    width: 2em;
   }
 }
 @media (max-width: 576px) {
@@ -1690,7 +1687,7 @@ footer #copy {
   }
 
   #main-prop .properties-active #property-details-container {
-    margin-right: 25%;
+    
 }
 
   #main-prop #property-details-container h3 {
@@ -1713,13 +1710,27 @@ footer #copy {
   }
 
   #main-prop .properties-active .miniature-images-container {
-    display: flex;
+    margin: 0;
+    width: 100%;
 
+    
   }
 
   #main-prop .properties-active .miniature-images-container img {
     height: 1em;
-    margin: 1px;
+    margin: 0;
     width: 1.75em;
   }
+}
+
+
+/* Estilo para miniaturas en la posición derecha en pantallas grandes */
+.miniature-images-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
 }

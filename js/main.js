@@ -224,6 +224,3 @@ function buttonSelected() {
 for (var i = 0; i < buttonLanguage.length; i++) {
   buttonLanguage[i].addEventListener("click", buttonSelected);
 }
-
-
-

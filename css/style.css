@@ -8,6 +8,7 @@
 
 }
 
+
 /* FUENTE */
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
@@ -18,6 +19,8 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1;100;200;300;400;500;600;700;800;900;1000&display=swap');
+
+
 /* BASE */
 
 * {
@@ -126,9 +129,11 @@ header span p.title {
   animation: sk-chase-dot 2.0s infinite ease-in-out both;
   }
 }
+
 .sk-chase {
   animation: sk-chase 2.5s infinite linear both;
 }
+
 @keyframes sk-chase {
   100% { transform: rotate(360deg); } 
 }
@@ -259,13 +264,11 @@ header span p.title {
     font-size: 2em;
   }
 }
-
 @media (max-width: 768px) {
   .navbar-toggle {
     font-size: 1.75em;
   }
 }
-
 @media (max-width: 576px) {
   .navbar-toggle {
     font-size: 1.5em;
@@ -1739,4 +1742,17 @@ footer #copy {
     font-size: .688em;
     margin-top: 1.5em;
   }
+}
+
+
+
+
+/* Agrega estilos para mostrar el menú desplegable */
+.nav-menu.show {
+  display: block;
+}
+
+/* Estilos para ocultar el menú por defecto */
+.nav-menu {
+  display: none;
 }

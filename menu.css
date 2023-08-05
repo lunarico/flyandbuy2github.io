@@ -1,0 +1,401 @@
+
+/* HEADER */
+
+header  {
+    background: var(--color11);
+    opacity: 90%;
+    padding: .375em;
+  }
+  
+  
+  /* LOGO */
+  
+  header .logo {
+    display: flex;
+    padding: 0 2em;
+    width: 30%;
+  }
+  
+  .logo img {
+    width: 5.25em;
+  }
+  
+  header span .title{
+    color: white;
+    font-family: 'Paul Grotesk';
+    font-size: 1.125em;
+    margin-bottom: 0;
+    text-transform: uppercase;
+  }
+  
+  header span p.title {
+    font-size: .5em;
+    letter-spacing: .25em;
+  }
+  
+  .sk-chase-dot {
+    animation: sk-chase-dot 2.0s;
+    &:hover {
+    animation: sk-chase-dot 2.0s infinite ease-in-out both;
+    }
+  }
+  
+  .sk-chase {
+    animation: sk-chase 2.5s infinite linear both;
+  }
+  
+  @keyframes sk-chase {
+    100% { transform: rotate(360deg); } 
+  }
+  @keyframes sk-chase-dot {
+    80%, 100% { transform: rotate(360deg); } 
+  }
+  
+  @media (max-width: 1300px) {
+    header .logo {
+      padding: 0;
+    }
+  }
+  @media (max-width: 992px) {
+    .logo {
+      width: 25%;
+    }
+  
+     #logo-prop {
+      width: 55%;
+    }
+  
+    .logo img{
+      width: 6em;
+    }
+  
+    header span .title {
+      display: none;
+    }
+  }
+  @media (max-width: 768px) {
+    header .logo img{
+      width: 5.75em;
+    }
+  }
+  @media (max-width: 576px) {
+    header #logo-prop {
+      width: 25%;
+    }
+  
+    header .logo img{
+      width: 4.5em;
+    }
+  }
+  
+  
+  /* NAVBAR */
+  
+  .navbar {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.5em 0;
+    position: relative;
+    width: 50%;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    width: 90%;
+  }
+  
+  .navbar a {
+    color: white;
+    font-size: .75em;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-prop ul {
+    width: 80%;
+  }
+  
+  @media (max-width: 1300px) {
+    .navbar {
+      padding: 0;
+    }
+  
+    .navbar ul {
+      width: 100%;
+    }
+  
+    .nav-prop ul {
+      width: 80%;
+    }
+  }
+  @media (max-width: 1200px) {
+    .navbar a {
+      font-size: .675em;
+    }
+    .nav-link {
+      padding: 0.5em .5em;
+    }
+  }
+  @media (max-width: 992px) {
+    .navbar ul {
+      display: none;
+    }
+  }
+  
+  .navbar a:hover,
+  .navbar .active,
+  .navbar .active:focus,
+  .navbar li:hover > a {
+    color: var(--color22);
+    transition: 0.3s;
+  }
+  
+  .dropdown {
+    position: relative;
+  } 
+  
+  .dropdown-toggle::after {
+    display: none;
+  }
+  
+  .dropdown:hover .subnav {
+    display: block;
+  }
+  
+  #toggle {
+    display: none;
+  }
+  
+  @media (max-width: 992px) {
+    #toggle{
+      display: block;
+      font-size: 2em;
+    }
+  }
+  @media (max-width: 768px) {
+    .navbar-toggle {
+      font-size: 1.75em;
+    }
+  }
+  @media (max-width: 576px) {
+    .navbar-toggle {
+      font-size: 1.5em;
+    }
+  }
+  
+  .open-nav .navbar-toggle {
+    margin-left: 0;
+    position: absolute;
+    top: 30px;
+  }
+  
+  .navbar-toggle {
+    color: var(--color33);
+    cursor: pointer;
+    font-size: 1.75em;
+    line-height: 0;
+    transition: 0.5s;
+  }
+  
+  .open-nav {
+    background: var(--color11);
+    bottom: 0;
+    justify-content: center;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition: 0.3s;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  .open-nav ul {
+    background-color: var(--color44);
+    border-radius: 10px;
+    display: block;
+    overflow-y: auto;
+    padding: 10px 0;
+    position: absolute;
+    transition: 0.3s;
+    width: 90%;
+  }
+  
+  .open-nav a {
+    color: var(--color11);
+    font-size: 1em;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  @media (max-width: 576px) {
+    .open-nav a {
+      font-size: .875em;
+      font-weight: 300;
+      padding: 14px 0;
+    }
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown .subnav {
+    background-color: var(--color11);
+    border-radius: 1em;
+    display: none;
+    list-style: none;
+    margin-right: 10%;
+    padding: 0.75em;
+    position: absolute;
+    width: 110%;
+    z-index: 2;
+  }
+  
+  .dropdown .subnav li {
+    padding: 0.75em 0;
+    text-align: center;
+  }
+  
+  .dropdown .subnav a {
+    color: var(--color33);
+    display: block;
+    font-size: .675em;
+  }
+  
+  .dropdown .subnav a:hover {
+    color: var(--color22);
+    cursor: pointer;
+  }
+  
+  .dropdown .subnav a img {
+    border-radius: 5px;
+    height: 1em;
+    margin-left: 0.5em;
+    width: 1.75em;
+  }
+  
+  .dropdown.open .subnav:before {
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+  }
+  
+  @media (max-width: 1200px) {
+    .dropdown .subnav {
+      margin-left: -20%;
+      width: 140%;
+    }
+  
+    .dropdown .subnav a {
+      color: var(--color33);
+      display: block;
+      font-size: .563em;
+    }
+  } 
+  @media (max-width: 992px) {
+  
+    .dropdown .subnav {
+      background-color: var(--color33);
+      display: block;
+      margin-left: 0;
+      position: relative;
+      width: 100%;
+    }
+  
+    .dropdown .subnav li {
+      padding: 0;
+    }
+  
+    .dropdown .subnav a {
+      color: var(--color11);
+      font-size: .875em;
+      padding: 10px 0;
+    }
+  
+    #contacto {
+      transition: transform 0.3s;
+    }
+  
+    .dropdown.open #contacto {
+      transform: translate3d(0, 100%, 0);
+    }
+  } 
+  
+  .dropdown.open .subnav:before {
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+  }
+  
+  @media (max-width: 992px) {
+    .dropdown .subnav {
+      background-color: var(--color33);
+      width: 100%;
+    }
+  
+    .dropdown .subnav a {
+      color: var(--color11)
+    }
+  } 
+  
+  .dropdown:hover .subnav {
+    display: block;
+  }
+  
+  
+  /* LANGUAGES */
+  
+  button:focus {
+    outline: none;
+  }
+  
+  #languages {
+    padding-right: 2em;
+    text-align: end;
+    width: 20%;
+  }
+  
+  @media (max-width: 992px) {
+    #languages {
+      padding-right: 0;
+      width: 25%;
+    }
+  }
+  @media (max-width: 576px) {
+    #languages {
+      padding-left: 0;
+    }
+  }
+  
+  .button-language {
+    border: none;
+    border-radius: 100%;
+    margin: 0 .5em;
+  }
+  
+  .button-language.button-active {
+    cursor: default;
+  }
+  
+  .button-language.button-active img {
+    opacity: 50%;
+  }
+  
+  .language-icon {
+    width: 1.75em;
+  }
+  
+  @media (max-width: 576px) {
+    .button-language {
+      margin: 0 .25em;
+    }
+  }
+  

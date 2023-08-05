@@ -1387,6 +1387,7 @@ footer #copy {
 }
 
 #main-prop .properties-active .properties-container{
+  margin-left: 5%;
   width: 10%;
 }
 
@@ -1399,7 +1400,7 @@ footer #copy {
 }
 
 #main-prop .properties-active #property-details-container {
-  margin: 0 3em 0 10%;
+  margin: 0 3em 0 7%;
 }
 
 #main-prop #property-details-container h3 {
@@ -1465,11 +1466,6 @@ footer #copy {
   border-color: var(--color11)
 }
 
-#main-prop #property-details-container .property-description {
-  font-size: 1.5em;
-  margin-top: 2em;
-}
-
 .miniature-images-right {
   position: absolute;
   top: 50%;
@@ -1531,10 +1527,6 @@ footer #copy {
     height: 4em;
     width: 6em;
   }
-
-  #main-prop #property-details-container .property-description {
-    font-size: 1.25em;
-  }
 }
 @media (max-width: 1200px) {
   #main-prop .properties-container {
@@ -1558,7 +1550,7 @@ footer #copy {
   }
 
   #main-prop .properties-active .miniature-images-container {
-    margin-top: -18em;
+    margin-top: -17.5em;
     max-height: 16em;
   }
 
@@ -1615,17 +1607,13 @@ footer #copy {
   }
 
   #main-prop .properties-active .miniature-images-container {
-    margin-top: -14.5em;
+    margin-top: -14em;
     max-height: 13em;
   }
 
   #main-prop .properties-active .miniature-images-container img {
-    height: 3em;
-    width: 4.5em;
-  }
-
-  #main-prop #property-details-container .property-description {
-    font-size: 1.125em;
+    height: 2.75em;
+    width: 4em;
   }
 }
 @media (max-width: 768px) {
@@ -1673,10 +1661,6 @@ footer #copy {
   #main-prop .properties-active .miniature-images-container img {
     height: 2em;
     width: 3em;
-  }
-
-  #main-prop #property-details-container .property-description {
-    font-size: .938em;
   }
 }
 @media (max-width: 576px) {
@@ -1737,11 +1721,6 @@ footer #copy {
     margin: 0;
     width: 2.5em;
   }
-
-  #main-prop .properties-active .property-description {
-    font-size: .688em;
-    margin-top: 1.5em;
-  }
 }
 
 /* DESCRIPTION PROPERTIES */
@@ -1768,6 +1747,26 @@ footer #copy {
   font-size: .75em;
 }
 
+.property-description {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2em;
+  text-align: center;
+}
+
+.property-description hr {
+  border-bottom: 1.25em solid var(--color11);
+  border-top: 1.25em solid var(--color11);
+  margin: 0;
+}
+
+.property-description .first-description {
+  font-size: .875em;
+  padding: 0 1em;
+  text-transform: uppercase;
+  width: 32%;
+}
+
 @media (max-width: 1400px) {
   #logo-description {
     margin-top: 3em;
@@ -1783,6 +1782,19 @@ footer #copy {
   
   #logo-description span p{
     font-size: .5em;
+  }
+
+  .property-description {
+    margin-top: 1.75em;
+  }
+  
+  .property-description hr {
+    border-bottom: 1.75em solid var(--color11);
+    border-top: 1.75em solid var(--color11);
+  }
+  
+  .property-description .first-description {
+    font-size: .813em;
   }
 }
 @media (max-width: 1200px) {
@@ -1806,6 +1818,14 @@ footer #copy {
   #logo-description span p{
     font-size: .438em;
   }
+
+  .property-description {
+    margin-top: 1.5em;
+  }
+  
+  .property-description .first-description {
+    font-size: .75em;
+  }
 }
 @media (max-width: 992px) {
   #logo-description {
@@ -1822,6 +1842,19 @@ footer #copy {
 
   #logo-description span h1{
     font-size: .875em;
+  }
+
+  .property-description {
+    margin-top: 1.25em;
+  }
+  
+  .property-description hr {
+    border-bottom: 1.325em solid var(--color11);
+    border-top: 1.325em solid var(--color11);
+  }
+  
+  .property-description .first-description {
+    font-size: .625em;
   }
 }
 @media (max-width: 768px) {
@@ -1844,6 +1877,19 @@ footer #copy {
   #logo-description span p {
     font-size: .375em;
   }
+
+  .property-description {
+    margin-top: 1em;
+  }
+  
+  .property-description hr {
+    border-bottom: 1.125em solid var(--color11);
+    border-top: 1.125em solid var(--color11);
+  }
+  
+  .property-description .first-description {
+    font-size: .5em;
+  }
 }
 @media (max-width: 576px) {
   #logo-description {
@@ -1864,5 +1910,18 @@ footer #copy {
 
   #logo-description span p {
     font-size: .313em;
+  }
+
+  .property-description {
+    margin-top: .75em;
+  }
+
+  .property-description hr {
+    border-bottom: 1em solid var(--color11);
+    border-top: 1em solid var(--color11);
+  }
+
+  .property-description .first-description {
+    font-size: .438em;
   }
 }

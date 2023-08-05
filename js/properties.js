@@ -367,13 +367,6 @@ document.addEventListener('DOMContentLoaded', () => {
     return urlParams.get('property');
   }
 
-  // Función para obtener la descripción de la propiedad de manera asíncrona
-  function getPropertyDescription(propertyName) {
-    const descriptions = propertiesData.descriptions;
-    const currentDescriptions = descriptions && descriptions[currentLanguage];
-    return currentDescriptions && currentDescriptions[propertyName] ? currentDescriptions[propertyName] : "Descripción no disponible.";
-  }
-
    // Función para obtener las imágenes de la propiedad actual
    function getPropertyImages(propertyName) {
     const properties = propertiesData.properties;
@@ -446,6 +439,27 @@ function displayMiniatureImages(images) {
   });
 }
 
+// Función para obtener la dirección de la propiedad
+function getPropertyAddress(propertyName) {
+  const descriptions = propertiesData.descriptions[currentLanguage];
+  const propertyDescription = descriptions && descriptions[propertyName];
+  return propertyDescription && propertyDescription.address ? propertyDescription.address : "Address not available.";
+}
+
+// Función para obtener el diseño de la propiedad
+function getPropertyDesign(propertyName) {
+  const descriptions = propertiesData.descriptions[currentLanguage];
+  const propertyDescription = descriptions && descriptions[propertyName];
+  return propertyDescription && propertyDescription.design ? propertyDescription.design : "Design not available.";
+}
+
+// Función para obtener la disponibilidad de la propiedad
+function getPropertyAvailable(propertyName) {
+  const descriptions = propertiesData.descriptions[currentLanguage];
+  const propertyDescription = descriptions && descriptions[propertyName];
+  return propertyDescription && propertyDescription.available ? propertyDescription.available : "Available not available.";
+}
+
 // Declarar swiper en un alcance más amplio
 let swiper;
   // Función para mostrar los detalles de la propiedad en el contenedor correspondiente
@@ -472,7 +486,11 @@ let swiper;
         </span>
       </div>
       <div class="property-description">
-        ${getPropertyDescription(propertyName)}
+        <p class="first-description">${getPropertyAddress(propertyName)}</p>
+        <hr width="1" size="500"> 
+        <p class="first-description">${getPropertyDesign(propertyName)}</p>
+        <hr width="1" size="500"> 
+        <p class="first-description">${getPropertyAvailable(propertyName)}</p>
       </div>
     `;
   

@@ -117,7 +117,11 @@
       "Ella": "Descipcion Ella",
       "Ora by Casa Tua": "Descipcion Ora",
       "The Elser": "Descipcion Elser",
-      "Visions at Brickell Station": "Descipcion Visions",
+      "Visions at Brickell Station": {
+        "address": "<u>Dirección</u><br><i>1136 sw 3 ave miami, fl</i>",
+        "design": "<u>Diseño interior</u><br><i>concepto</i>",
+        "available": "<u>Entrega</u><br><i>q4 2025</i>"
+      },
       "West Eleventh Residences Miami": "Descipcion West Eleventh",
       "Domus Brickell Park": "Descripción Domus",
       "Urban Living With Character": "Descripción Urban"
@@ -126,7 +130,11 @@
       "Ella": "Desciption Ella",
       "Ora by Casa Tua": "sdfkjkgdfgjldkOra",
       "The Elser": "Description Elser",
-      "Visions at Brickell Station": "Description Visions",
+      "Visions at Brickell Station": {
+        "address": "<u>Address</u><br><i>1136 sw 3 ave miami, fl</i>",
+        "design": "<u>Interior Design</u><br><i>concept</i>",
+        "available": "<u>Available</u><br><i>q4 2025</i>"
+      },
       "West Eleventh Residences Miami": "Description West Eleventh",
       "Domus Brickell Park": "Descriptión Domus",
       "Urban Living With Character": "Descriptión Urban"

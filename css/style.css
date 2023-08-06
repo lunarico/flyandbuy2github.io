@@ -1746,7 +1746,6 @@ footer #copy {
 
 #logo-description {
   display: flex;
-  margin: 4em 0 0 0;
 }
 
 #logo-description img {
@@ -1796,10 +1795,6 @@ footer #copy {
 }
 
 @media (max-width: 1400px) {
-  #logo-description {
-    margin: 3em 0 0 0;
-  }
-
   #logo-description img {
     width: 10em;
   }
@@ -1831,10 +1826,6 @@ footer #copy {
   }
 }
 @media (max-width: 1200px) {
-  #logo-description {
-    margin-top: 2.5em;
-  }
-
   #logo-description img {
     width: 8.5em;
   }
@@ -1870,10 +1861,6 @@ footer #copy {
   }
 }
 @media (max-width: 992px) {
-  #logo-description {
-    margin-top: 2em;
-  }
-
   #logo-description img {
     width: 7em;
   }
@@ -1900,10 +1887,6 @@ footer #copy {
   }
 }
 @media (max-width: 768px) {
-  #logo-description {
-    margin-top: 1.5em;
-  }
-
   #logo-description img {
     width: 5.5em;
   }
@@ -1939,10 +1922,6 @@ footer #copy {
   }
 }
 @media (max-width: 576px) {
-  #logo-description {
-    margin-top: 1.25em;
-  }
-
   #logo-description img {
     width: 4em;
   }

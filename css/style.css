@@ -1406,7 +1406,7 @@ footer #copy {
 }
 
 #main-prop #property-details-container h3 {
-  margin-top: -.75em;
+  margin: .5em 0;
   text-align: center;
   text-transform: uppercase;
 }
@@ -1515,7 +1515,6 @@ footer #copy {
 
   #main-prop #property-details-container h3 {
     font-size: 1.5em;
-    margin-top: -1.125em;
   }
 
   .swiper-container {
@@ -1556,10 +1555,6 @@ footer #copy {
 
   #main-prop .properties-active #property-details-container {
     margin-left: 10%;
-  }
-
-  #main-prop #property-details-container h3 {
-    margin-top: -.75em;
   }
 
   .swiper-container {
@@ -1612,7 +1607,6 @@ footer #copy {
 
   #main-prop #property-details-container h3 {
     font-size: 1.25em;
-    margin-top: -0.25em;
   }
 
   .swiper-container {
@@ -1720,7 +1714,6 @@ footer #copy {
 
   #main-prop #property-details-container h3 {
     font-size: .75em;
-    margin-top: -.5em;
   }
 
   .swiper-container {

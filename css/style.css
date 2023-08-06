@@ -1387,12 +1387,13 @@ footer #copy {
 }
 
 #main-prop .properties-active .properties-container{
+  align-content: baseline;
   margin-left: 5%;
   width: 10%;
 }
 
 #main-prop .properties-active .properties-container .property{
-  margin: .5em;
+  margin: 1em .5em;
 }
 
 #main-prop .properties-active .properties-container img{
@@ -1400,7 +1401,8 @@ footer #copy {
 }
 
 #main-prop .properties-active #property-details-container {
-  margin: 0 3em 0 7%;
+  margin: 0 3em 0 5%;
+  width: 40%;
 }
 
 #main-prop #property-details-container h3 {
@@ -1478,8 +1480,13 @@ footer #copy {
     margin-left: 5%;
   }
 
+  #main-prop .properties-active #property-details-container {
+    margin: 0 3em 0 5%;
+    width: 45%;
+  }
+
   #main-prop .properties-active .miniature-images-container {
-    margin-right: 2em;
+    margin: -25em 2em 0 0;
   }
 
   #main-prop .properties-active .miniature-images-container img {
@@ -1491,6 +1498,10 @@ footer #copy {
   #main-prop .flags-container .flag-style {
     height: 7em;
     width: 15em;
+  }
+
+  #main-prop .properties-active .properties-container .property{
+    margin: .75em .5em;
   }
 
   #main-prop .property img {
@@ -1575,6 +1586,10 @@ footer #copy {
 
   #main-prop .property img {
     width: 7.5em;
+  }
+
+  #main-prop .properties-active .properties-container .property{
+    margin: .5em;
   }
 
   #main-prop .properties-active .properties-container {
@@ -1687,6 +1702,10 @@ footer #copy {
     width: 5em;
   }
 
+  #main-prop .properties-active #property-details-container {
+    width: 100%;
+  }
+
   #main-prop .properties-active .properties-container img {
     margin: 0;
     width: 3em;
@@ -1727,7 +1746,7 @@ footer #copy {
 
 #logo-description {
   display: flex;
-  margin-top: 4em;
+  margin: 4em 0 0 0;
 }
 
 #logo-description img {
@@ -1750,8 +1769,9 @@ footer #copy {
 
 .property-description {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 2em;
+  margin: 2em 0;
   text-align: center;
 }
 
@@ -1768,9 +1788,21 @@ footer #copy {
   width: 32%;
 }
 
+#info-property {
+  font-size: .875em;
+  letter-spacing: 0.063em;
+  padding: 1em 2em;
+  text-align: justify;
+}
+
+/* @media (max-width: 1800px) {
+  #logo-description {
+    margin-left: 0;
+  }
+} */
 @media (max-width: 1400px) {
   #logo-description {
-    margin-top: 3em;
+    margin: 3em 0 0 0;
   }
 
   #logo-description img {
@@ -1796,6 +1828,11 @@ footer #copy {
   
   .property-description .first-description {
     font-size: .813em;
+  }
+
+  #info-property {
+    font-size: .813em;
+    padding: .75em 2.25em;
   }
 }
 @media (max-width: 1200px) {
@@ -1827,6 +1864,10 @@ footer #copy {
   .property-description .first-description {
     font-size: .75em;
   }
+
+  #info-property {
+    font-size: .75em;
+  }
 }
 @media (max-width: 992px) {
   #logo-description {
@@ -1856,6 +1897,11 @@ footer #copy {
   
   .property-description .first-description {
     font-size: .625em;
+  }
+
+  #info-property {
+    font-size: .625em;
+
   }
 }
 @media (max-width: 768px) {
@@ -1892,6 +1938,10 @@ footer #copy {
   .property-description .first-description {
     font-size: .5em;
   }
+
+  #info-property {
+    font-size: .563em;
+  }
 }
 @media (max-width: 576px) {
   #logo-description {
@@ -1925,5 +1975,10 @@ footer #copy {
 
   .property-description .first-description {
     font-size: .438em;
+  }
+
+  #info-property {
+    font-size: .438em;
+    padding: 0.25em 1.25em
   }
 }

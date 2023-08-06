@@ -460,6 +460,13 @@ function getPropertyAvailable(propertyName) {
   return propertyDescription && propertyDescription.available ? propertyDescription.available : "Available not available.";
 }
 
+// Función para obtener la info de la propiedad
+function getPropertyInfo(propertyName) {
+  const descriptions = propertiesData.descriptions[currentLanguage];
+  const propertyDescription = descriptions && descriptions[propertyName];
+  return propertyDescription && propertyDescription.info ? propertyDescription.info : "Info not available.";
+}
+
 // Declarar swiper en un alcance más amplio
 let swiper;
   // Función para mostrar los detalles de la propiedad en el contenedor correspondiente
@@ -491,6 +498,7 @@ let swiper;
         <p class="first-description">${getPropertyDesign(propertyName)}</p>
         <hr width="1" size="500"> 
         <p class="first-description">${getPropertyAvailable(propertyName)}</p>
+        <p id="info-property">${getPropertyInfo(propertyName)}</p>
       </div>
     `;
   

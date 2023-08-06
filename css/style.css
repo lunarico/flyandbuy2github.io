@@ -1406,6 +1406,7 @@ footer #copy {
 }
 
 #main-prop #property-details-container h3 {
+  margin-top: -.75em;
   text-align: center;
   text-transform: uppercase;
 }
@@ -1514,6 +1515,7 @@ footer #copy {
 
   #main-prop #property-details-container h3 {
     font-size: 1.5em;
+    margin-top: -1.125em;
   }
 
   .swiper-container {
@@ -1554,6 +1556,10 @@ footer #copy {
 
   #main-prop .properties-active #property-details-container {
     margin-left: 10%;
+  }
+
+  #main-prop #property-details-container h3 {
+    margin-top: -.75em;
   }
 
   .swiper-container {
@@ -1606,6 +1612,7 @@ footer #copy {
 
   #main-prop #property-details-container h3 {
     font-size: 1.25em;
+    margin-top: -0.25em;
   }
 
   .swiper-container {
@@ -1713,7 +1720,7 @@ footer #copy {
 
   #main-prop #property-details-container h3 {
     font-size: .75em;
-    margin-top: 1em;
+    margin-top: -.5em;
   }
 
   .swiper-container {
@@ -1795,11 +1802,6 @@ footer #copy {
   text-align: justify;
 }
 
-/* @media (max-width: 1800px) {
-  #logo-description {
-    margin-left: 0;
-  }
-} */
 @media (max-width: 1400px) {
   #logo-description {
     margin: 3em 0 0 0;
@@ -1822,8 +1824,8 @@ footer #copy {
   }
   
   .property-description hr {
-    border-bottom: 1.75em solid var(--color11);
-    border-top: 1.75em solid var(--color11);
+    border-bottom: 1.25em solid var(--color11);
+    border-top: 1.25em solid var(--color11);
   }
   
   .property-description .first-description {
@@ -1860,6 +1862,11 @@ footer #copy {
   .property-description {
     margin-top: 1.5em;
   }
+
+  .property-description hr {
+    border-bottom: 1.375em solid var(--color11);
+    border-top: 1.375em solid var(--color11);
+  }
   
   .property-description .first-description {
     font-size: .75em;
@@ -1888,11 +1895,6 @@ footer #copy {
 
   .property-description {
     margin-top: 1.25em;
-  }
-  
-  .property-description hr {
-    border-bottom: 1.325em solid var(--color11);
-    border-top: 1.325em solid var(--color11);
   }
   
   .property-description .first-description {
@@ -1931,8 +1933,8 @@ footer #copy {
   }
   
   .property-description hr {
-    border-bottom: 1.125em solid var(--color11);
-    border-top: 1.125em solid var(--color11);
+    border-bottom: 1em solid var(--color11);
+    border-top: 1em solid var(--color11);
   }
   
   .property-description .first-description {
@@ -1966,11 +1968,6 @@ footer #copy {
 
   .property-description {
     margin-top: .75em;
-  }
-
-  .property-description hr {
-    border-bottom: 1em solid var(--color11);
-    border-top: 1em solid var(--color11);
   }
 
   .property-description .first-description {

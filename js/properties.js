@@ -153,6 +153,13 @@ function getPropertyInfo(propertyName) {
   return propertyDescription && propertyDescription.info ? propertyDescription.info : "Info not available.";
 }
 
+// Función para obtener la room de la propiedad
+function getPropertyRooms(propertyName) {
+  const descriptions = propertiesData.descriptions[currentLanguage];
+  const propertyDescription = descriptions && descriptions[propertyName];
+  return propertyDescription && propertyDescription.rooms ? propertyDescription.rooms : "Rooms not available.";
+}
+
 // Declarar swiper en un alcance más amplio
 let swiper;
   // Función para mostrar los detalles de la propiedad en el contenedor correspondiente
@@ -184,7 +191,11 @@ let swiper;
         <p class="first-description">${getPropertyDesign(propertyName)}</p>
         <hr width="1" size="500"> 
         <p class="first-description">${getPropertyAvailable(propertyName)}</p>
-        <p id="info-property">${getPropertyInfo(propertyName)}</p>
+        <p class="more-info">${getPropertyInfo(propertyName)}</p>
+        <div id="building-rooms">
+          <img src="../assets/img/edificio.png" alt="Icono Edificio" class="building">
+          <p class="more-info">${getPropertyRooms(propertyName)}</p>
+        </div>
       </div>
     `;
   

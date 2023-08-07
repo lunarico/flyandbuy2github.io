@@ -1746,6 +1746,7 @@ footer #copy {
 
 #logo-description {
   display: flex;
+  margin: 2em 0 1em 0;
 }
 
 #logo-description img {
@@ -1787,11 +1788,39 @@ footer #copy {
   width: 32%;
 }
 
-#info-property {
+.more-info {
   font-size: .875em;
   letter-spacing: 0.063em;
+  margin-bottom: .5em;
   padding: 1em 2em;
   text-align: justify;
+}
+
+#building-rooms {
+  align-items: center;
+  display: flex;
+  margin: 1.5em 0 0 2em;
+}
+
+.building {
+  width: 2.75em;
+}
+
+#char-ser {
+  display: flex;
+  justify-content: space-between;
+  margin: .5em 0 0 24%;
+  text-align: center;
+  text-decoration: underline;
+  width: 40%;
+}
+
+#char-ser div {
+  margin: .75em
+}
+
+#char-ser div h6{
+  font-size: .875em;
 }
 
 @media (max-width: 1400px) {
@@ -1820,12 +1849,33 @@ footer #copy {
     font-size: .813em;
   }
 
-  #info-property {
+  .more-info {
     font-size: .813em;
     padding: .75em 2.25em;
   }
+
+  .building {
+    width: 2.5em;
+  }
+
+  #char-ser {
+    margin: .25em 0 0 21%;
+    width: 45%;
+  }
+  
+  #char-ser div {
+    margin: .5em
+  }
+  
+  #char-ser div h6{
+    font-size: .813em;
+  }
 }
 @media (max-width: 1200px) {
+  #logo-description {
+    margin: 1.25em 0 .75em 0;
+  }
+
   #logo-description img {
     width: 8.5em;
   }
@@ -1856,7 +1906,24 @@ footer #copy {
     font-size: .75em;
   }
 
-  #info-property {
+  .more-info {
+    font-size: .75em;
+  }
+
+  #building-rooms {
+    margin-left: 1.5em ;
+  }
+
+  .building {
+    width: 2.25em;
+  }
+
+  #char-ser {
+    margin: 0 0 0 22%;
+
+  }
+  
+  #char-ser div h6{
     font-size: .75em;
   }
 }
@@ -1881,12 +1948,36 @@ footer #copy {
     font-size: .625em;
   }
 
-  #info-property {
+  .more-info {
     font-size: .625em;
 
   }
+
+  #building-rooms {
+    margin: 1em 0 0 1.25em ;
+  }
+
+  .building {
+    width: 2em;
+  }
+
+  #char-ser {
+    margin: -.5em 0 0 24%;
+  }
+  
+  #char-ser div {
+    margin: .25em
+  }
+  
+  #char-ser div h6{
+    font-size: .625em;
+  }
 }
 @media (max-width: 768px) {
+  #logo-description {
+    margin: .75em 0 .25em 0;
+  }
+
   #logo-description img {
     width: 5.5em;
   }
@@ -1917,7 +2008,23 @@ footer #copy {
     font-size: .5em;
   }
 
-  #info-property {
+  .more-info {
+    font-size: .563em;
+  }
+
+  #building-rooms {
+    margin-top: .75em;
+  }
+
+  .building {
+    width: 1.75em;
+  }
+
+  #char-ser {
+    margin: -1em 0 0 26%;
+  }
+  
+  #char-ser div h6{
     font-size: .563em;
   }
 }
@@ -1946,9 +2053,29 @@ footer #copy {
     font-size: .438em;
   }
 
-  #info-property {
+  .more-info {
     font-size: .438em;
     padding: 0.25em 1.25em
   }
-}
 
+  #building-rooms {
+    margin-left: .5em;
+  }
+
+  .building {
+    width: 1.25em;
+  }
+
+  #char-ser {
+    margin-left: 22%;
+    width: 70%;
+  }
+  
+  #char-ser div {
+    margin: .5em
+  }
+  
+  #char-ser div h6{
+    font-size: .438em;
+  }
+}

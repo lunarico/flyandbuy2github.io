@@ -70,7 +70,14 @@
           "../assets/img/propUsa/Visions/visions2.jpg",
           "../assets/img/propUsa/Visions/visions3.jpg",
           "../assets/img/propUsa/Visions/visions4.jpg",
-          "../assets/img/propUsa/Visions/visions5.jpg"
+          "../assets/img/propUsa/Visions/visions5.jpg",
+          "../assets/img/propUsa/Visions/visions6.jpg",
+          "../assets/img/propUsa/Visions/visions7.jpg",
+          "../assets/img/propUsa/Visions/visions8.jpg",
+          "../assets/img/propUsa/Visions/visions9.jpg",
+          "../assets/img/propUsa/Visions/visions10.jpg",
+          "../assets/img/propUsa/Visions/visions11.jpg",
+          "../assets/img/propUsa/Visions/visions12.jpg"
         ]
       },
       {
@@ -85,7 +92,8 @@
           "../assets/img/propUsa/West-Eleventh/westEleventh6.jpg",
           "../assets/img/propUsa/West-Eleventh/westEleventh7.jpg",
           "../assets/img/propUsa/West-Eleventh/westEleventh8.jpg",
-          "../assets/img/propUsa/West-Eleventh/westEleventh9.jpg"
+          "../assets/img/propUsa/West-Eleventh/westEleventh9.jpg",
+          "../assets/img/propUsa/West-Eleventh/westEleventh10.jpg"
         ]
       },
       {
@@ -121,14 +129,26 @@
         "available": "<u>Entrega</u><br><i>q4 2025</i>",
         "info": "- Está situado en el corazón de la ciudad en Distric 11, considerado uno de los destinos de entretenimiento más recientes y codiciados de Miami. Vistas espectaculates de la ciudadde Miami y de la bahía de Biscayne. Instalaciones de 30.000 pies cuadrados, dedicadas a experiencias de entretenimiento.<br><br>- Las unidades vienen totalmente amuebladas y equipadas, y, a través de nuestro servicio de conserjería, altamente especializada, se podrá presentar su propiedad de la manera más profesional y efectiva."
       },
-      "The Elser": "Descipcion Elser",
+      "The Elser": {
+        "address": "<u>Dirección</u><br><i>biscayne bay downtown dv e miami</i>",
+        "design": "<u>Diseño interior</u><br><i>california</i>",
+        "available": "<u>Entrega</u><br><i>q4 2025</i>",
+        "info": "- Descubre una colección de resindencias, cada una creda para una vida vibrante y excepcional. Los diseños conscientes y sofisticados se combinan perfectamente con las vistas del piso al techo de la Bahía de Biscayne y el centro de Miami.",
+        "rooms": "<i>Studios y Residencias de 1 Recámara / 2 Recámaras o 3 Recámaras - amoblados<br>49 Pisos<br>646 Residencias</i>"
+      },
       "Visions at Brickell Station": {
         "address": "<u>Dirección</u><br><i>1136 sw 3 ave miami, fl</i>",
         "design": "<u>Diseño interior</u><br><i>concepto</i>",
         "available": "<u>Entrega</u><br><i>q4 2025</i>",
-        "info": "- Las unidades cuentan con lujosos servicios enfocados en el bienestar, que incluyen sistemas avanzados de calefacción con aire purificado y difusión de eco-desinfectante probiótico, revestimientos de paredes no tóxicos, agua filtrada, difusores de aromaterapia, duchas de terapia de vitamina C e iluminación para reflejar y equilibrar la mente<br><br>- Es un condo-hotel boutique con servicios sofisticados y enfocados en el bienestar que buscarán satisfacer cada necesidad de los clientes ubicado en el corazón de Miami."
+        "info": "- Las unidades cuentan con lujosos servicios enfocados en el bienestar, que incluyen sistemas avanzados de calefacción con aire purificado y difusión de eco-desinfectante probiótico, revestimientos de paredes no tóxicos, agua filtrada, difusores de aromaterapia, duchas de terapia de vitamina C e iluminación para reflejar y equilibrar la mente<br><br>- Es un condo-hotel boutique con servicios sofisticados y enfocados en el bienestar que buscarán satisfacer cada necesidad de los clientes ubicado en el corazón de Miami.",
+        "rooms": "<i>Junior Suite - Bedroom Unit<br>111 Unidades - Estudios y Habitaciones</i>"
       },
-      "West Eleventh Residences Miami": "Descipcion West Eleventh",
+      "West Eleventh Residences Miami":  {
+        "address": "<u>Dirección</u><br><i>Distric 11</i>",
+        "design": "<u>Diseño interior</u><br><i>vanguardia</i>",
+        "available": "<u>Entrega</u><br><i>q4 2025</i>",
+        "info": "- Está situado en el corazón de la ciudad en Distric 11, considerado uno de los destinos de entretenimiento más recientes y codiciados de Miami. Vistas espectaculates de la ciudadde Miami y de la bahía de Biscayne. Instalaciones de 30.000 pies cuadrados, dedicadas a experiencias de entretenimiento.<br><br>- Las unidades vienen totalmente amuebladas y equipadas, y, a través de nuestro servicio de conserjería, altamente especializada, se podrá presentar su propiedad de la manera más profesional y efectiva."
+      },
       "Domus Brickell Park": "Descripción Domus",
       "Urban Living With Character": "Descripción Urban"
     },
@@ -139,13 +159,21 @@
         "design": "<u>Interior Design</u><br><i>vanguard</i>",
         "available": "<u>Available</u><br><i>q4 2025</i>"
       },
-      "The Elser": "Description Elser",
+      "The Elser": {
+        "address": "<u>Dirección</u><br><i>biscayne bay downtown dv e miami</i>",
+        "design": "<u>Diseño interior</u><br><i>california</i>",
+        "available": "<u>Entrega</u><br><i>q4 2025</i>"
+      },
       "Visions at Brickell Station": {
         "address": "<u>Address</u><br><i>1136 sw 3 ave miami, fl</i>",
         "design": "<u>Interior Design</u><br><i>concept</i>",
         "available": "<u>Available</u><br><i>q4 2025</i>"
       },
-      "West Eleventh Residences Miami": "Description West Eleventh",
+      "West Eleventh Residences Miami": {
+        "address": "<u>Address</u><br><i>Distric 11</i>",
+        "design": "<u>Interior Design</u><br><i>vanguard</i>",
+        "available": "<u>Available</u><br><i>q4 2025</i>"
+      },
       "Domus Brickell Park": "Descriptión Domus",
       "Urban Living With Character": "Descriptión Urban"
     }

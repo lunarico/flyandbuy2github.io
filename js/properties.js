@@ -1,5 +1,6 @@
 let currentLanguage = localStorage.getItem('selectedLanguage') || 'es';
 let propertiesData = {}; // Variable para almacenar los datos del archivo JSON
+let text = {}; // Definir text en un ámbito más amplio
 
 document.addEventListener('DOMContentLoaded', () => {
 
@@ -8,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const changeLanguage = async (language) => {
     const requestJson = await fetch(`../assets/languages/${language}.json`);
-    const text = await requestJson.json();
+    text = await requestJson.json(); 
 
     const toChange = document.querySelectorAll("[data-section]");
 
@@ -21,13 +22,14 @@ document.addEventListener('DOMContentLoaded', () => {
     currentLanguage = language;
     localStorage.setItem('selectedLanguage', currentLanguage); // Almacenar el idioma seleccionado en localStorage
     loadPropertiesFromJSON(); // Cargar las propiedades desde el archivo JSON con el idioma actualizado
-    updateActiveLanguageButton(); // Actualizar el botón del idioma activo
   };
 
   languages.addEventListener('click', (e) => {
     changeLanguage(e.target.parentElement.dataset.language);
+    
   });
 
+  
   let buttonLanguage = document.getElementsByClassName("button-language");
 
   function buttonSelected() {
@@ -160,6 +162,18 @@ function getPropertyRooms(propertyName) {
   return propertyDescription && propertyDescription.rooms ? propertyDescription.rooms : "Rooms not available.";
 }
 
+function getPropertyCharacteristics(propertyName) {
+  const descriptions = propertiesData.descriptions[currentLanguage];
+  const propertyDescription = descriptions && descriptions[propertyName];
+  return propertyDescription && propertyDescription.characteristics ? propertyDescription.characteristics : "Characteristics not available.";
+}
+
+function getPropertyServices(propertyName) {
+  const descriptions = propertiesData.descriptions[currentLanguage];
+  const propertyDescription = descriptions && descriptions[propertyName];
+  return propertyDescription && propertyDescription.services ? propertyDescription.services : "Rooms not available.";
+}
+
 // Declarar swiper en un alcance más amplio
 let swiper;
   // Función para mostrar los detalles de la propiedad en el contenedor correspondiente
@@ -195,6 +209,14 @@ let swiper;
         <div id="building-rooms">
           <img src="../assets/img/edificio.png" alt="Icono Edificio" class="building">
           <p class="more-info">${getPropertyRooms(propertyName)}</p>
+        </div>
+        <div id="char-ser">
+          <div class="char">
+            <h6>${getPropertyCharacteristics(propertyName)}</h6>
+          </div>
+          <div class="ser">
+            <h6>${getPropertyServices(propertyName)}</h6>
+          </div>
         </div>
       </div>
     `;

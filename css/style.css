@@ -39,6 +39,83 @@ body {
   min-height: 100vh;
 }
 
+/* BOTONES */
+
+.buttom-fly {
+  background-color: var(--color33);
+  border: 2px solid var(--color22);
+  border-radius: 20px;
+  height: 3em;
+  justify-self: center;
+  margin-top: 5em;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  width: 10em;
+}
+
+.buttom-fly:hover {
+  background-color: var(--color11);
+  box-shadow: 1px 1px 25px 10px rgba(248, 247, 243, 0.4);
+  color: var(--color44);
+}
+
+.buttom-fly:before {
+  background: linear-gradient(120deg, transparent,rgba(248, 247, 243, 0.4),transparent);
+  content: "";
+  height: 100%;
+  left: -100%;
+  position: absolute;
+  top: 0;
+  transition: all 650ms;
+  width: 100%;
+}
+
+.buttom-fly:hover:before {
+  left: 100%;
+}
+
+.buttom-fly a {
+  color: var(--color11);
+  font-size: 1.063em;
+}
+
+.buttom-fly:hover a{
+  background-color: var(--color11);
+  color: var(--color44);
+}
+
+@media (max-width: 1400px) {
+  .buttom-fly a {
+    font-size: 1em;
+  }
+}
+@media (max-width: 1200px) {
+  .buttom-fly{
+    width: 9.5em;
+  } 
+}
+@media (max-width: 992px) {
+  .buttom-fly {
+    width: 9em;
+  }
+
+  .buttom-fly a{
+    font-size: .813em;
+  }
+}
+@media (max-width: 768px) {
+  .buttom-fly{
+    margin-top: 3em;
+    height: 2.25em;
+    width: 8.5em;
+  }
+}
+@media (max-width: 576px) {
+  .buttom-fly{
+    width: 8em;
+  }
+}
 
 /* WHATSAPP */
 
@@ -522,50 +599,6 @@ button:focus {
   text-align: center;
 }
 
-#aboutUs .contact{
-  background-color: var(--color33);
-  border: 2px solid var(--color22);
-  border-radius: 20px;
-  height: 3em;
-  justify-self: center;
-  margin-top: 5em;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-  width: 10em;
-}
-
-#aboutUs .contact:hover {
-  background-color: var(--color11);
-  box-shadow: 1px 1px 25px 10px rgba(248, 247, 243, 0.4);
-  color: var(--color44);
-}
-
-#aboutUs .contact:before {
-  background: linear-gradient(120deg, transparent,rgba(248, 247, 243, 0.4),transparent);
-  content: "";
-  height: 100%;
-  left: -100%;
-  position: absolute;
-  top: 0;
-  transition: all 650ms;
-  width: 100%;
-}
-
-#aboutUs .contact:hover:before {
-  left: 100%;
-}
-
-#aboutUs .contact a {
-  color: var(--color11);
-  font-size: 1.063em;
-}
-
-#aboutUs .contact:hover a{
-  background-color: var(--color11);
-  color: var(--color44);
-}
-
 @media (max-width: 1400px) {
   #aboutUs .box-intro {
     margin-top: 14em;
@@ -577,10 +610,6 @@ button:focus {
     font-size: 1em;
     margin: 1.25em;
   }
-
-  #aboutUs .contact a {
-    font-size: 1em;
-  }
 }
 @media (max-width: 1200px) {
   #aboutUs .box-intro {
@@ -591,24 +620,12 @@ button:focus {
   #aboutUs .intro {
     line-height: 1.5em;
   }
-
-  #aboutUs .contact{
-    width: 9.5em;
-  } 
 }
 @media (max-width: 992px) {
   #aboutUs .intro {
     font-size: .813em;
     line-height: 1.75em;
     margin: 1em;
-  }
-
-  #aboutUs .contact{
-    width: 9em;
-  }
-
-  #aboutUs .contact a{
-    font-size: .813em;
   }
 }
 @media (max-width: 768px) {
@@ -621,12 +638,6 @@ button:focus {
   #aboutUs .box-intro {
     margin-top: 9em;
     width: 80%;
-  }
-
-  #aboutUs .contact{
-    margin-top: 3em;
-    height: 2.25em;
-    width: 8.5em;
   }
 }
 @media (max-width: 576px) {
@@ -641,10 +652,6 @@ button:focus {
 
   #aboutUs .intro {
     line-height: 1.5em;
-  }
-
-  #aboutUs .contact{
-    width: 8em;
   }
 }
 
@@ -1842,6 +1849,17 @@ footer #copy {
   margin-top: 2em;
 }
 
+#more {
+  height: auto;
+  margin: 0 0 3em 0;
+  padding: .125em .75em;
+  width: 20em;
+}
+
+#more a {
+  font-size: 1em;
+}
+
 @media (max-width: 1400px) {
   #logo-description img {
     width: 10em;
@@ -1892,6 +1910,15 @@ footer #copy {
   #info-extra {
     font-size: .813em;
     margin-top: 1.5em;
+  }
+
+  #more {
+    padding: .125em .625em;
+    width: 17em;
+  }
+  
+  #more a {
+    font-size: .875em;
   }
 }
 @media (max-width: 1200px) {
@@ -1957,6 +1984,14 @@ footer #copy {
     font-size: .75em;
     margin-top: 1.25em;
   }
+
+  #more {
+    width: 15em;
+  }
+  
+  #more a {
+    font-size: .813em;
+  }
 }
 @media (max-width: 992px) {
   #logo-description img {
@@ -2007,6 +2042,16 @@ footer #copy {
   #info-extra {
     font-size: .625em;
     margin-top: 1em;
+  }
+
+  #more {
+    line-height: 1.2;
+    padding: .25em .5em;
+    width: 13em;
+  }
+  
+  #more a {
+    font-size: .75em;
   }
 }
 @media (max-width: 768px) {
@@ -2075,6 +2120,15 @@ footer #copy {
   #info-extra {
     font-size: .563em;
   }
+
+  #more {
+    padding: 0 .25em;
+    width: 11em;
+  }
+  
+  #more a {
+    font-size: .625em;
+  }
 }
 @media (max-width: 576px) {
   #logo-description img {
@@ -2124,5 +2178,15 @@ footer #copy {
 
   #info-extra {
     font-size: .438em;
+  }
+
+  #more {
+    line-height: 1;
+    padding: 0;
+    width: 9em;
+  }
+  
+  #more a {
+    font-size: .5em;
   }
 }

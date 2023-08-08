@@ -202,6 +202,18 @@ function getPropertyInfoExtra(propertyName) {
   return propertyDescription && propertyDescription.infoExtra ? propertyDescription.infoExtra : "Rooms not available.";
 }
 
+function getPropertyButtomPdf(propertyName) {
+  const descriptions = propertiesData.descriptions[currentLanguage];
+  const propertyDescription = descriptions && descriptions[propertyName];
+  return propertyDescription && propertyDescription.buttomPdf ? propertyDescription.buttomPdf : "Rooms not available.";
+}
+
+function getPropertyPdf(propertyName) {
+  const descriptions = propertiesData.descriptions[currentLanguage];
+  const propertyDescription = descriptions && descriptions[propertyName];
+  return propertyDescription && propertyDescription.pdf ? propertyDescription.pdf : "Rooms not available.";
+}
+
 // Declarar swiper en un alcance más amplio
 let swiper;
   // Función para mostrar los detalles de la propiedad en el contenedor correspondiente
@@ -254,6 +266,9 @@ let swiper;
         </div>
         <p id="info-extra">${getPropertyInfoExtra(propertyName)}</p>
       </div>
+      <button id="more" class="buttom-fly">
+        <a href="${getPropertyPdf(propertyName)}" download>${getPropertyButtomPdf(propertyName)}${propertyName}</a>
+      </button>
     `;
   
     const propContainer = document.getElementById('prop-container');
@@ -273,12 +288,7 @@ let swiper;
         image.alt = 'Property Image';
         slide.appendChild(image);
         sliderWrapper.appendChild(slide);
-      });
-    } else {
-      const noImagesMessage = document.createElement('div');
-      noImagesMessage.classList.add('swiper-slide', 'no-images-message');
-      noImagesMessage.textContent = 'No hay imágenes disponibles.';
-      sliderWrapper.appendChild(noImagesMessage);
+      })
     }
   
     const miniatureContainer = document.querySelector('.miniature-images-container');

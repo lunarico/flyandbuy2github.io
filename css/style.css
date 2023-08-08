@@ -1944,7 +1944,7 @@ footer #copy {
   }
 
   .property-description {
-    margin-top: 1.5em;
+    margin: 1.5em 0;
   }
 
   .property-description hr {
@@ -1986,7 +1986,9 @@ footer #copy {
   }
 
   #more {
-    width: 15em;
+    line-height: 1.2;
+    padding: 0.125em 0.5em;
+    width: 14em;
   }
   
   #more a {
@@ -2045,9 +2047,7 @@ footer #copy {
   }
 
   #more {
-    line-height: 1.2;
-    padding: .25em .5em;
-    width: 13em;
+    width: 12em;
   }
   
   #more a {
@@ -2077,7 +2077,7 @@ footer #copy {
   }
 
   .property-description {
-    margin-top: 1em;
+    margin: 1em 0;
   }
   
   .property-description hr {
@@ -2122,8 +2122,9 @@ footer #copy {
   }
 
   #more {
-    padding: 0 .25em;
-    width: 11em;
+    line-height: 1;
+    padding: .125em;
+    width: 10em;
   }
   
   #more a {
@@ -2148,7 +2149,7 @@ footer #copy {
   }
 
   .property-description {
-    margin-top: .75em;
+    margin: .5em 0;
   }
 
   .property-description .first-description {
@@ -2181,9 +2182,9 @@ footer #copy {
   }
 
   #more {
-    line-height: 1;
-    padding: 0;
-    width: 9em;
+    line-height: .8;
+    margin-bottom: 2em;
+    width: 8em;
   }
   
   #more a {

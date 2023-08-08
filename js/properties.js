@@ -174,6 +174,34 @@ function getPropertyServices(propertyName) {
   return propertyDescription && propertyDescription.services ? propertyDescription.services : "Rooms not available.";
 }
 
+function getPropertyCharacteristicsList(propertyName) {
+  const descriptions = propertiesData.descriptions[currentLanguage];
+  const propertyDescription = descriptions && descriptions[propertyName];
+  
+  if (propertyDescription && propertyDescription.listCharacteristics) {
+    return propertyDescription.listCharacteristics;
+  } else {
+    return ["Características no disponibles."];
+  }
+}
+
+function getPropertyServicesList(propertyName) {
+  const descriptions = propertiesData.descriptions[currentLanguage];
+  const propertyDescription = descriptions && descriptions[propertyName];
+  
+  if (propertyDescription && propertyDescription.listServices) {
+    return propertyDescription.listServices;
+  } else {
+    return ["Servicios no disponibles."];
+  }
+}
+
+function getPropertyInfoExtra(propertyName) {
+  const descriptions = propertiesData.descriptions[currentLanguage];
+  const propertyDescription = descriptions && descriptions[propertyName];
+  return propertyDescription && propertyDescription.infoExtra ? propertyDescription.infoExtra : "Rooms not available.";
+}
+
 // Declarar swiper en un alcance más amplio
 let swiper;
   // Función para mostrar los detalles de la propiedad en el contenedor correspondiente
@@ -213,11 +241,18 @@ let swiper;
         <div id="char-ser">
           <div class="char">
             <h6>${getPropertyCharacteristics(propertyName)}</h6>
+            <ul class="lists">
+              ${getPropertyCharacteristicsList(propertyName).map(characteristic => `<li>${characteristic}</li>`).join('')}
+            </ul>
           </div>
           <div class="ser">
             <h6>${getPropertyServices(propertyName)}</h6>
+            <ul class="lists">
+              ${getPropertyServicesList(propertyName).map(characteristic => `<li>${characteristic}</li>`).join('')}
+            </ul>
           </div>
         </div>
+        <p id="info-extra">${getPropertyInfoExtra(propertyName)}</p>
       </div>
     `;
   

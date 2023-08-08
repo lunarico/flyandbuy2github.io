@@ -34,7 +34,9 @@
 
 body {
   background-color: var(--color44);
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 
@@ -1323,7 +1325,7 @@ button:focus {
 footer {
   background-color: var(--color11);
   display: grid;
-  height: 2em;
+  height: 3em;
   width: 100%; 
 }
 
@@ -1332,6 +1334,7 @@ footer #copy {
   color: var(--color44);
   justify-self: center;
   text-align: center;
+  margin-top: auto;
 }
 
 @media (max-width: 1400px) {
@@ -1353,6 +1356,7 @@ footer #copy {
 
 #main-prop {
   display: grid;
+  flex: 1;
   height: 100vh;
 }
 
@@ -1810,16 +1814,32 @@ footer #copy {
   display: flex;
   justify-content: space-between;
   margin-top: 1.5em;
-  text-align: center;
-  text-decoration: underline;
+  text-align: start;
 }
 
 #char-ser div {
   margin: .75em 1em;
+  width: 50%;
 }
 
 #char-ser div h6{
   font-size: .875em;
+  letter-spacing: 0.063em;
+  line-height: 1.5;
+  min-height: 2em;
+  text-decoration: underline;
+}
+
+#char-ser .lists li {
+  font-size: .875em;
+  letter-spacing: 0.063em;
+  margin-left: 1em;
+}
+
+#info-extra {
+  font-size: .875em;
+  font-style: italic;
+  margin-top: 2em;
 }
 
 @media (max-width: 1400px) {
@@ -1861,8 +1881,17 @@ footer #copy {
     margin: .75em;
   }
 
-  #char-ser div h6{
+  #char-ser div h6 {
     font-size: .813em;
+  }
+
+  #char-ser .lists li {
+    font-size: .813em;
+  }
+
+  #info-extra {
+    font-size: .813em;
+    margin-top: 1.5em;
   }
 }
 @media (max-width: 1200px) {
@@ -1916,8 +1945,17 @@ footer #copy {
     margin-top: 1.25em;
   }
   
-  #char-ser div h6{
+  #char-ser div h6 {
     font-size: .75em;
+  }
+
+  #char-ser .lists li {
+    font-size: .75em;
+  }
+
+  #info-extra {
+    font-size: .75em;
+    margin-top: 1.25em;
   }
 }
 @media (max-width: 992px) {
@@ -1958,8 +1996,17 @@ footer #copy {
     margin: .5em;
   }
   
-  #char-ser div h6{
+  #char-ser div h6 {
     font-size: .625em;
+  }
+
+  #char-ser .lists li {
+    font-size: .625em;
+  }
+
+  #info-extra {
+    font-size: .625em;
+    margin-top: 1em;
   }
 }
 @media (max-width: 768px) {
@@ -2017,7 +2064,15 @@ footer #copy {
     margin: .25em;
   }
 
-  #char-ser div h6{
+  #char-ser div h6 {
+    font-size: .563em;
+  }
+
+  #char-ser .lists li {
+    font-size: .563em;
+  }
+
+  #info-extra {
     font-size: .563em;
   }
 }
@@ -2063,7 +2118,15 @@ footer #copy {
     margin: .125em;
   }
   
-  #char-ser div h6{
+  #char-ser div h6 {
+    font-size: .438em;
+  }
+
+  #char-ser .lists li {
+    font-size: .438em;
+  }
+
+  #info-extra {
     font-size: .438em;
   }
 }

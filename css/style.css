@@ -1893,6 +1893,7 @@ footer #copy {
   }
 
   .more-info {
+    color: red;
     font-size: .813em;
     padding: .75em 2.25em;
   }

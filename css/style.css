@@ -1389,7 +1389,7 @@ footer #copy {
 }
 
 #main-prop .properties-container {
-  margin-bottom: 0;
+  margin-bottom: 4em;
   width: 70%;
 }
 
@@ -1606,6 +1606,10 @@ footer #copy {
 
   #main-prop .property img {
     width: 7.5em;
+  }
+
+  #main-prop .properties-container {
+    margin-bottom: 3em;
   }
 
   #main-prop .properties-active .properties-container .property{

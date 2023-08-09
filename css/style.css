@@ -1777,6 +1777,7 @@ footer #copy {
 }
 
 #logo-description span {
+  margin-left: -1em;
   text-transform: uppercase;
 }
 

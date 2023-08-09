@@ -20,7 +20,8 @@
           "../assets/img/propUsa/Ora/ora2.jpg",
           "../assets/img/propUsa/Ora/ora3.jpg",
           "../assets/img/propUsa/Ora/ora4.jpg",
-          "../assets/img/propUsa/Ora/ora5.jpg"
+          "../assets/img/propUsa/Ora/ora5.jpg",
+          "../assets/img/propUsa/Ora/ora6.jpg"
         ]
       },
 
@@ -110,20 +111,19 @@
         "name": "Domus Brickell Park",
         "logo": "../assets/img/propUsa/Domus/domus.png",
         "imagenes": [
-          "../assets/img/propUsa/Domus/domus1.jpg",
-          "../assets/img/propUsa/Domus/domus2.jpg",
-          "../assets/img/propUsa/Domus/domus3.jpg",
-          "../assets/img/propUsa/Domus/domus4.jpg",
-          "../assets/img/propUsa/Domus/domus5.jpg",
-          "../assets/img/propUsa/Domus/domus6.jpg",
-          "../assets/img/propUsa/Domus/domus7.jpg"
+          "../assets/img/propUsa/Domus/domus1.jpg"
         ]
       },
 
 
       {
         "name": "Urban Living With Character",
-        "logo": "../assets/img/propUsa/urban.jpg"
+        "logo": "../assets/img/propUsa/Urban/urban.jpg",
+        "imagenes": [
+          "../assets/img/propUsa/Urban/urban1.jpg",
+          "../assets/img/propUsa/Urban/urban2.jpg",
+          "../assets/img/propUsa/Urban/urban3.jpg"
+        ]
       }
     ],
 
@@ -142,12 +142,47 @@
 
     "es": {
 
-      "Ella": "Descipcion Ella",
+      "Ella": {
+        "address": "",
+        "design": "",
+        "available": "",
+        "info": "",
+        "rooms": "",
+        "characteristics": "Características de la unidad - Instalaciones",
+        "services": "Servicios para los arrendatarios bienestar",
+        "listCharacteristics": [
+        ],
+        "listServices": [
+        ],
+        "buttomPdf": "Ver más sobre ",
+        "pdf": "../assets/pdf/renderElla.pdf"
+      },
+
+
       "Ora by Casa Tua": {
-        "address": "<u>Dirección</u><br><i>Distric 11</i>",
-        "design": "<u>Diseño interior</u><br><i>vanguardia</i>",
+        "address": "<u>Dirección</u><br><i>Brickell</i>",
+        "design": "<u>Diseño interior</u><br><i>m2atelier</i>",
         "available": "<u>Entrega</u><br><i>q4 2025</i>",
-        "info": "- Está situado en el corazón de la ciudad en Distric 11, considerado uno de los destinos de entretenimiento más recientes y codiciados de Miami. Vistas espectaculates de la ciudadde Miami y de la bahía de Biscayne. Instalaciones de 30.000 pies cuadrados, dedicadas a experiencias de entretenimiento.<br><br>- Las unidades vienen totalmente amuebladas y equipadas, y, a través de nuestro servicio de conserjería, altamente especializada, se podrá presentar su propiedad de la manera más profesional y efectiva."
+        "info": "- Una combinación de experiencias culinarias con alma y entretenimiento vibrante, tanto para residentes como para la comunidad en general, ORA es el mayor atractivo de la ciudad. Ubicado en el corazón del codiciado vecindario de Brickell, ORA es un destino, un refugio y un estilo de vida, enriquecido y definido por momentos significativos y por las personas que los viven.<br><br>- Es un centro cosmopolita de arte, cultura y gastronomía. Donde la vida sucede ahora",
+        "rooms": "<i>Studios y Residencias de 1 Recámara a 4 dormitorios<br>76 pisos</i>",
+        "characteristics": "Características de la unidad - Instalaciones",
+        "services": "Servicios para los arrendatarios bienestar",
+        "listCharacteristics": [
+          "Residencias desde estudios hasta cuatro dormitorios", 
+          "Vistas panorámicas a la bahía de Biscayne, el horizonte de Brickell, y Coconut Grove",
+          "Residencias amuebladas", "Electrodomésticos y con vinotecas en residencias selectas", 
+          "Sistema de hogar inteligente", "Precableado para internet y WiFi", 
+          "Lavadora y secadora en cada residencia", "Clóset de propietario en residencias selectas"
+        ],
+        "listServices": [
+          "Salas de relajación", "Terraza de bienestar", "Salas de tratamiento individuales",
+          "Baño de vapor y sauna mixtos", "Vestidores con duchas separados para hombres y para mujeres", 
+          "Sala de tratamiento para parejas", "Sala de estilismo","Bar de jugos y nutrición", 
+          "Gimnasio y piscina", "Sky Lounge y bar", "Cocina al aire libre", 
+          "Restaurante privado y espacio para eventos"
+        ],
+        "buttomPdf": "Ver más sobre ",
+        "pdf": "../assets/pdf/renderOra.pdf"
       },
 
 
@@ -156,7 +191,24 @@
         "design": "<u>Diseño interior</u><br><i>california</i>",
         "available": "<u>Entrega</u><br><i>q4 2025</i>",
         "info": "- Descubre una colección de resindencias, cada una creda para una vida vibrante y excepcional. Los diseños conscientes y sofisticados se combinan perfectamente con las vistas del piso al techo de la Bahía de Biscayne y el centro de Miami.",
-        "rooms": "<i>Studios y Residencias de 1 Recámara / 2 Recámaras o 3 Recámaras - amoblados<br>49 Pisos<br>646 Residencias</i>"
+        "rooms": "<i>Studios y Residencias de 1 Recámara / 2 Recámaras o 3 Recámaras - amoblados<br>49 Pisos<br>646 Residencias</i>",
+        "characteristics": "Características de la unidad - Instalaciones",
+        "services": "Servicios para los arrendatarios bienestar",
+        "listCharacteristics": [
+          "Pisos de porcelana en toda la residencia", "Lavadora y secadora (empotradas en residencias selectas)",
+          "Termostato inteligente", "Precableado para internet de alta velocidad, varias lineas telefónicas y tv cable", 
+          "Gabinetes de cocina", "Electrodomésticos Frigidaire de acero inoxidable que incluyen microondas, lavavajillas, horno independiente y refrigerador", 
+          "Duchas con puertas de vidrio sin marco", "Closets terminados estilo Ca"
+        ],
+        "listServices": [
+          "Estaciones de carga para vehículos eléctricos", "Tecnología inteligente", "Lockers de manejo inteligente",
+          "Llave digital", "Acceso para invitados", "Entrega de paquetes", "Mensajes de la administración",
+          "Lockers para el servicio de tintorería y lavandería", "Ingresos controlados en todo el edificio",
+          "Valet Parking", "Piscina climatizada estilo 'spa'", "Ambientes para reuniones",
+          "Áreas comunes con WiFi complementario", "Gimnasio"
+        ],
+        "buttomPdf": "Ver más sobre ",
+        "pdf": "../assets/pdf/renderTheElser.pdf"
       },
 
 
@@ -179,7 +231,6 @@
           "Servicio de conserjería", "Servicio a la habitación", "Almacenamiento de equipaje",
           "Servicio de transporte (Aeropuerto & Brightline)"
         ],
-        "infoExtra": "Tanto el edificio como las residencias cuentan con sistemas avanzados de calefacción y ventilación que proporcionan aire purificado",
         "buttomPdf": "Ver más sobre ",
         "pdf": "../assets/pdf/renderVisions.pdf"
       },
@@ -189,29 +240,145 @@
         "address": "<u>Dirección</u><br><i>Distric 11</i>",
         "design": "<u>Diseño interior</u><br><i>vanguardia</i>",
         "available": "<u>Entrega</u><br><i>q4 2025</i>",
-        "info": "- Está situado en el corazón de la ciudad en Distric 11, considerado uno de los destinos de entretenimiento más recientes y codiciados de Miami. Vistas espectaculates de la ciudadde Miami y de la bahía de Biscayne. Instalaciones de 30.000 pies cuadrados, dedicadas a experiencias de entretenimiento.<br><br>- Las unidades vienen totalmente amuebladas y equipadas, y, a través de nuestro servicio de conserjería, altamente especializada, se podrá presentar su propiedad de la manera más profesional y efectiva."
+        "info": "- Está situado en el corazón de la ciudad en Distric 11, considerado uno de los destinos de entretenimiento más recientes y codiciados de Miami. Vistas espectaculates de la ciudadde Miami y de la bahía de Biscayne. Instalaciones de 30.000 pies cuadrados, dedicadas a experiencias de entretenimiento.<br><br>- Las unidades vienen totalmente amuebladas y equipadas, y, a través de nuestro servicio de conserjería, altamente especializada, se podrá presentar su propiedad de la manera más profesional y efectiva.",
+        "rooms": "<i>Studio-Studio con balcón-1 Recámara-1 Recámara con balcón<br>659 Viviendas<br>Niveles 16-44</i>",
+        "characteristics": "Características de la unidad - Instalaciones",
+        "services": "Servicios para los arrendatarios bienestar",
+        "listCharacteristics": [
+          "Apartametos amoblados", "Armarios empotrados en las habitaciones principales con stanterías", 
+          "Cortinas integradas", "Lavadora y secadora de alta gama", 
+          "Hogar inteligente PMG, incluye sistemas integrados de audio, video e iluminación", 
+          "Control central de iluminación", "Balcones franceses (en residencias seleccionadas)"
+        ],
+        "listServices": [
+          "Torre de 44 pisos", "Administración totalmente centralizada y servicios de hospedaje", 
+          "Restaurante de autor", "Un piso vibrante de amenidades, con una piscina estilo resort", 
+          "Centro de ejercicio y bienestar de última generación", "Lobby moderno y de exclusivo diseño",
+          "Espacio de coworking", "Tecnología de punta de edificios inteligentes"
+        ],
+        "buttomPdf": "Ver más sobre ",
+        "pdf": "../assets/pdf/renderWestEleventh.pdf"
       },
 
 
-      "Domus Brickell Park": "Descripción Domus",
-      "Urban Living With Character": "Descripción Urban"
+      "Domus Brickell Park": {
+        "address": "",
+        "design": "<u>Diseño interior</u><br><i>urban robot associates</i>",
+        "available": "<u>Entrega</u><br><i>q4 2025</i>",
+        "info": "",
+        "rooms": "<i>One Bedroom / One Bedroom + Den / Two Bedrooms<br>12 pisos<br>171 unidades</i>",
+        "characteristics": "Características de la unidad - Instalaciones",
+        "services": "Servicios para los arrendatarios bienestar",
+        "listCharacteristics": [
+          "Amobladas con pisos laminados en toda la unidad", "Balcón privado en todas las unidades", 
+          "Cocina pequeña con fregadero, horno de alta velocidad, lavaplatos y refrigerador", 
+          "Accesorios modernos", "Cubiertas de cuarzo", "Lavadora y secadora"
+        ],
+        "listServices": [
+          "Ventanas resistentes a impactos", "Sistema inteligente de entrada sin llave", 
+          "Recepción en la entrada del edificio las 24 horas", "Gimnasio con equipos avanzados", "Baño de vapor", 
+          "Área social en el último piso con piscina y cabañas", "Spa con hidroterapia", 
+          "Área de BBQ y entretenimiento", "Terraza exterior cubierta", "Área de venta para productos gourmet",
+          "Salón y jardín con vegetación exhuberante", "Bar de vinos y cervezas"
+        ],
+        "buttomPdf": "Ver más sobre ",
+        "pdf": "../assets/pdf/renderDomus.pdf"
+      },
+
+
+      "Urban Living With Character": {
+        "address": "",
+        "design": "",
+        "available": "<u>Entrega</u><br><i>q4 2025</i>",
+        "info": "",
+        "rooms": "",
+        "characteristics": "Características de la unidad - Instalaciones",
+        "services": "Servicios para los arrendatarios bienestar",
+        "listCharacteristics": [
+          "Departamentos amoblados", "Ventanas de vidrio de piso a techo", 
+          "Todos los departamentos tienen balcones", "Innovadores electrodomésticos", "Horno de alta velocidad", 
+          "Refrigeradora/congeladora empotrada con paneles", 
+          "Lavavajilla", "Lavadoras y secadoras de primera línea", "Amplios armarios empotrados"
+        ],
+        "listServices": [
+          "Porte-cochere techada", "Lobby con atención las 24 horas", "Depósito automático de paquetes Luxer One", 
+          "Depósito para residentes con aire acondicionado", "Estacionamiento para bicicletas", 
+          "Lounge y espacio de entretenimiento para residentes", "Sala de juegos con bar húmedo y terraza", 
+          "Cocinas de verano", "Gimnasio y piscina en terraza"
+        ],
+        "buttomPdf": "Ver más sobre ",
+        "pdf": "../assets/pdf/renderUrban.pdf"
+      }
     },
 
 
     "en": {
       
-      "Ella": "Desciption Ella",
+      "Ella": {
+        "address": "",
+        "design": "",
+        "available": "",
+        "info": "",
+        "rooms": "",
+        "characteristics": "Characteristics of the unit - Facilities",
+        "services": "Services for welfare tenants",
+        "listCharacteristics": [
+        ],
+        "listServices": [
+        ],
+        "buttomPdf": "Read more about ",
+        "pdf": "../assets/pdf/renderElla.pdf"
+      },
+
+
       "Ora by Casa Tua": {
-        "address": "<u>Address</u><br><i>Distric 11</i>",
-        "design": "<u>Interior Design</u><br><i>vanguard</i>",
-        "available": "<u>Available</u><br><i>q4 2025</i>"
+        "address": "<u>Address</u><br><i>Brickell</i>",
+        "design": "<u>Interior Design</u><br><i>m2atelier</i>",
+        "available": "<u>Available</u><br><i>q4 2025</i>",
+        "info": "- A combination of soulful culinary experiences and vibrant entertainment for both residents and the community at large, ORA is the city's biggest draw. Located in the heart of the coveted Brickell neighborhood, ORA is a destination, a refuge and a lifestyle, enriched and defined by meaningful moments and the people who live them.<br><br>- It is a cosmopolitan center of art, culture and gastronomy. Where life happens now ",
+        "rooms": "<i>Studios and Residences from 1 Bedroom to 4 Bedrooms<br>76 floors</i>",
+        "characteristics": "Characteristics of the unit - Facilities",
+        "services": "Services for welfare tenants",
+        "listCharacteristics": [
+          "Residences from studios to four bedrooms.", 
+          "Panoramic views of Biscayne Bay, the Brickell skyline, and Coconut Grove.","Furnished residences", 
+          "Appliances and with wine bars in select residences.", "Smart home system", 
+          "Pre-wired for internet and WiFi", "Washer and dryer in each residence", 
+          "Owner's closet in select residences"
+        ],
+        "listServices": [
+          "Relaxation rooms", "Wellness terrace", "Individual treatment rooms", "Mixed steam bath and sauna", 
+          "Dressing rooms with separate showers for men and women", "Couples treatment room", "Styling room", 
+          "Juice and nutrition bar", "Gym and pool", "Sky Lounge and bar", "Outdoor kitchen", 
+          "Private restaurant and event space"
+        ],
+        "buttomPdf": "Read more about ",
+        "pdf": "../assets/pdf/renderOra.pdf"
       },
 
 
       "The Elser": {
-        "address": "<u>Dirección</u><br><i>biscayne bay downtown dv e miami</i>",
-        "design": "<u>Diseño interior</u><br><i>california</i>",
-        "available": "<u>Entrega</u><br><i>q4 2025</i>"
+        "address": "<u>Address</u><br><i>biscayne bay downtown dv e miami</i>",
+        "design": "<u>Interior Design</u><br><i>california</i>",
+        "available": "<u>Available</u><br><i>q4 2025</i>",
+        "info": "- Discover a collection of residences, each created for vibrant and exceptional living. Conscious and sophisticated designs blend seamlessly with floor-to-ceiling views of Biscayne Bay and downtown Miami.",
+        "rooms": "<i>Studios and 1 Bedroom / 2 Bedroom or 3 Bedroom Residences - furnished<br>49 Floors<br>646 Residences</i>",
+        "characteristics": "Characteristics of the unit - Facilities",
+        "services": "Services for welfare tenants",
+        "listCharacteristics": [
+          "Porcelain tile floors throughout the residence", "Washer and dryer (built-in in select residences)", 
+          "Smart thermostat", "Pre-wired for high speed internet, several phone lines and cable tv", 
+          "Kitchen cabinets", "Frigidaire stainless steel appliances including microwave, dishwasher, freestanding oven and refrigerator", 
+          "Showers with frameless glass doors", "Ca style finished closets"
+        ],
+        "listServices": [
+          "Electric vehicle charging stations", "Smart technology", "Smart drive lockers", "Digital key", 
+          "Guest access", "Package delivery", "Messages from management", 
+          "Lockers for dry cleaning and laundry service", "Controlled entry throughout the building", 
+          "Valet Parking", "Heated 'spa' style pool", "Meeting rooms","Common areas with complementary WiFi", "Gym"
+        ],
+        "buttomPdf": "Read more about ",
+        "pdf": "../assets/pdf/renderTheElser.pdf"
       },
 
 
@@ -234,21 +401,80 @@
           "Concierge service", "Room service", "Luggage storage",
           "Shuttle service (Airport & Brightline)"
         ],
-        "infoExtra": "Both the building and the residences have advanced heating and ventilation systems that provide purified air.",
-        "buttomPdf": "Read more about "
-        
+        "buttomPdf": "Read more about ",
+        "pdf": "../assets/pdf/renderVisions.pdf"
       },
 
 
       "West Eleventh Residences Miami": {
         "address": "<u>Address</u><br><i>Distric 11</i>",
         "design": "<u>Interior Design</u><br><i>vanguard</i>",
-        "available": "<u>Available</u><br><i>q4 2025</i>"
+        "available": "<u>Available</u><br><i>q4 2025</i>",
+        "info": "- It is located in the heart of the city in District 11, considered one of the newest and most coveted entertainment destinations in Miami. Spectacular views of the city of Miami and Biscayne Bay. 30,000 square foot facilities, dedicated to entertainment experiences.<br><br>- Units come fully furnished and equipped, and through our highly specialized concierge service, your property can be presented in the most professional manner and effective.",
+        "rooms": "<i>Studio-Studio with balcony-1 Bedroom-1 Bedroom with balcony<br>659 Units<br>Levels 16-44</i>",
+        "characteristics": "Characteristics of the unit - Facilities",
+        "services": "Services for welfare tenants",
+        "listCharacteristics": [
+          "Furnished apartments", "Built-in closets in main rooms with shelving", "Integrated curtains", 
+          "High-end washer and dryer", "PMG smart home, includes integrated audio, video and lighting systems", 
+          "Central lighting control", "French balconies (in selected residences)"
+        ],
+        "listServices": [
+          "44-story tower", "Fully centralized management and lodging services", "Signature restaurant", 
+          "Vibrant amenity floor, with resort-style pool", "State-of-the-art fitness and wellness center", 
+          "Modern and uniquely designed lobby", "Coworking space", "State-of-the-art smart building technology"
+        ],
+        "buttomPdf": "Read more about ",
+        "pdf": "../assets/pdf/renderWestEleventh.pdf"
       },
 
 
-      "Domus Brickell Park": "Descriptión Domus",
-      "Urban Living With Character": "Descriptión Urban"
+      "Domus Brickell Park": {
+        "address": "",
+        "design": "<u>Interior Design</u><br><i>urban robot associates</i>",
+        "available": "<u>Available</u><br><i>q4 2025</i>",
+        "info": "",
+        "rooms": "<i>One Bedroom / One Bedroom + Den / Two Bedrooms<br>12 floors<br>171 units</i>",
+        "characteristics": "Characteristics of the unit - Facilities",
+        "services": "Services for welfare tenants",
+        "listCharacteristics": [
+          "Furnished with laminate flooring throughout the unit", "Private balcony in all units", 
+          "Kitchenette with sink, high speed stove, dishwasher and refrigerator", "Modern fixtures", 
+          "Quartz countertops", "Washer and dryer"
+        ],
+        "listServices": [
+          "Impact resistant windows", "Intelligent keyless entry system", "24-hour reception at building entrance", 
+          "Fitness center with advanced equipment", "Steam bath", "Top floor social area with pool and cabanas", 
+          "Spa with hydrotherapy", "BBQ and entertainment area", "Covered outdoor terrace", 
+          "Sales area for gourmet products", "Lounge and garden with lush vegetation", "Wine and beer bar"
+        ],
+        "buttomPdf": "Read more about ",
+        "pdf": "../assets/pdf/renderDomuspdf"
+      },
+
+      
+      "Urban Living With Character": {
+        "address": "",
+        "design": "",
+        "available": "<u>Available</u><br><i>q4 2025</i>",
+        "info": "",
+        "rooms": "",
+        "characteristics": "Characteristics of the unit - Facilities",
+        "services": "Services for welfare tenants",
+        "listCharacteristics": [
+          "Furnished apartments", "Floor to ceiling glass windows", "All apartments have balconies", 
+          "Innovative appliances", "High speed oven", "Built-in paneled refrigerator/freezer", "Dishwasher", 
+          "Top of the line washers and dryers", "Spacious built-in closets"
+        ],
+        "listServices": [
+          "Covered porte-cochere", "Lobby with 24-hour service", "Luxer One automatic package depository", 
+          "Air-conditioned residents' storage room", "Bicycle parking", 
+          "Lounge and entertainment space for residents", "Game room with wet bar and terrace", "Summer kitchens", 
+          "Fitness center and pool on terrace"
+        ],
+        "buttomPdf": "Read more about ",
+        "pdf": "../assets/pdf/renderUrban.pdf"
+      }
     }
   }
 }

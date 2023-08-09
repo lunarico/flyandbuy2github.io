@@ -196,12 +196,6 @@ function getPropertyServicesList(propertyName) {
   }
 }
 
-function getPropertyInfoExtra(propertyName) {
-  const descriptions = propertiesData.descriptions[currentLanguage];
-  const propertyDescription = descriptions && descriptions[propertyName];
-  return propertyDescription && propertyDescription.infoExtra ? propertyDescription.infoExtra : "Rooms not available.";
-}
-
 function getPropertyButtomPdf(propertyName) {
   const descriptions = propertiesData.descriptions[currentLanguage];
   const propertyDescription = descriptions && descriptions[propertyName];
@@ -264,9 +258,8 @@ let swiper;
             </ul>
           </div>
         </div>
-        <p id="info-extra">${getPropertyInfoExtra(propertyName)}</p>
       </div>
-      <button id="more" class="buttom-fly">
+      <button id="more" class="buttom-fly" href="${getPropertyPdf(propertyName)}" download>
         <a href="${getPropertyPdf(propertyName)}" download>${getPropertyButtomPdf(propertyName)}${propertyName}</a>
       </button>
     `;

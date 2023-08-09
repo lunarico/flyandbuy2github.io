@@ -1843,12 +1843,6 @@ footer #copy {
   margin-left: 1em;
 }
 
-#info-extra {
-  font-size: .875em;
-  font-style: italic;
-  margin-top: 2em;
-}
-
 #more {
   height: auto;
   margin: 0 0 3em 0;
@@ -1905,11 +1899,6 @@ footer #copy {
 
   #char-ser .lists li {
     font-size: .813em;
-  }
-
-  #info-extra {
-    font-size: .813em;
-    margin-top: 1.5em;
   }
 
   #more {
@@ -1980,11 +1969,6 @@ footer #copy {
     font-size: .75em;
   }
 
-  #info-extra {
-    font-size: .75em;
-    margin-top: 1.25em;
-  }
-
   #more {
     line-height: 1.2;
     padding: 0.125em 0.5em;
@@ -2039,11 +2023,6 @@ footer #copy {
 
   #char-ser .lists li {
     font-size: .625em;
-  }
-
-  #info-extra {
-    font-size: .625em;
-    margin-top: 1em;
   }
 
   #more {
@@ -2117,10 +2096,6 @@ footer #copy {
     font-size: .563em;
   }
 
-  #info-extra {
-    font-size: .563em;
-  }
-
   #more {
     line-height: 1;
     padding: .125em;
@@ -2174,10 +2149,6 @@ footer #copy {
   }
 
   #char-ser .lists li {
-    font-size: .438em;
-  }
-
-  #info-extra {
     font-size: .438em;
   }
 

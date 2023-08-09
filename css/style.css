@@ -1210,7 +1210,7 @@ button:focus {
   }
 
   #contact .contact-container {
-    margin: 0 1em;
+    margin: 0 1em 3em 1em;
   }
 
   .flip-container {
@@ -1230,10 +1230,6 @@ button:focus {
   #contact .intro-contact {
     margin: 1em 0;
     width: 75%;
-  }
-
-  #contact .contact-container {
-    margin: 0 1em;
   }
 
   .flip-container {
@@ -1288,7 +1284,7 @@ button:focus {
 
   #contact .contact-container {
     justify-content: center;
-    margin: 0 .4em;
+    margin: 0 .4em 2.25em 0;
   }
 
   .flip-container {
@@ -1330,9 +1326,12 @@ button:focus {
 /* FOOTER */
 
 footer {
+  align-content: center;
   background-color: var(--color11);
-  display: grid;
-  height: 3em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 3.5em;
   width: 100%; 
 }
 
@@ -1346,14 +1345,23 @@ footer #copy {
 
 @media (max-width: 1400px) {
   footer {
-    height: 1.75em;
+    height: 2.75em;
   }
 
   footer #copy {
     font-size: .875em;
   }
 } 
+@media (max-width: 1200px) {
+  footer {
+    height: 2.5em;
+  }
+} 
 @media (max-width: 768px) {
+  footer {
+    height: 2.25em;
+  }
+
   footer #copy {
     font-size: .75em;
   }

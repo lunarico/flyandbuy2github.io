@@ -217,7 +217,7 @@ let swiper;
     const propertyDetailsContainer = document.getElementById('property-details-container');
     propertyDetailsContainer.innerHTML = `
       <div id="logo-description">
-        <img src="../NEGRO.png" alt="Logo Fly and Buy">
+        <img src="../assets/img/logoBlack.png" alt="Logo Fly and Buy">
         <span>
           <h1 class="title">Fly and buy</h1>
           <p class="title">Travel and real state advisor</p>

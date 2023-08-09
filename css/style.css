@@ -1794,7 +1794,7 @@ footer #copy {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 2em 0;
+  margin: 2em 0 1.5em 0;
   text-align: center;
 }
 
@@ -1945,7 +1945,7 @@ footer #copy {
   }
 
   .property-description {
-    margin: 1.5em 0;
+    margin: 1.5em 0 1em 0;
   }
 
   .property-description hr {
@@ -2038,6 +2038,7 @@ footer #copy {
   }
 
   #more {
+    padding-bottom: .375em;
     width: 12em;
   }
   
@@ -2068,7 +2069,7 @@ footer #copy {
   }
 
   .property-description {
-    margin: 1em 0;
+    margin: 1em 0 .5em 0;
   }
   
   .property-description hr {
@@ -2110,7 +2111,6 @@ footer #copy {
 
   #more {
     line-height: 1;
-    padding: .125em;
     width: 10em;
   }
   
@@ -2136,7 +2136,7 @@ footer #copy {
   }
 
   .property-description {
-    margin: .5em 0;
+    margin: .5em 0 0 0;
   }
 
   .property-description .first-description {

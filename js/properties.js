@@ -273,12 +273,12 @@ let swiper;
     const sliderWrapper = document.querySelector('.swiper-wrapper');
   
     if (property.imagenes && property.imagenes.length > 0) {
-      property.imagenes.forEach((imageUrl) => {
+      property.imagenes.forEach((imageInfo) => {
         const slide = document.createElement('div');
         slide.classList.add('swiper-slide');
         const image = document.createElement('img');
-        image.src = imageUrl;
-        image.alt = 'Property Image';
+        image.src = imageInfo.src;
+        image.alt = imageInfo.alt;
         slide.appendChild(image);
         sliderWrapper.appendChild(slide);
       })
@@ -286,10 +286,10 @@ let swiper;
   
     const miniatureContainer = document.querySelector('.miniature-images-container');
   
-    property.imagenes.forEach((imageUrl, index) => {
+    property.imagenes.forEach((imageInfo, index) => {
       const miniatureImage = document.createElement('img');
-      miniatureImage.src = imageUrl;
-      miniatureImage.alt = 'Miniature Image';
+      miniatureImage.src = imageInfo.src;
+      miniatureImage.alt = imageInfo.alt;
       miniatureImage.addEventListener('click', () => {
         swiper.slideTo(index);
       });
@@ -298,10 +298,10 @@ let swiper;
   
     let swiper;
   
-    const imagesLoadedPromises = property.imagenes.map((imageUrl) => {
+    const imagesLoadedPromises = property.imagenes.map((imageInfo) => {
       return new Promise((resolve, reject) => {
         const image = new Image();
-        image.src = imageUrl;
+        image.src = imageInfo.src;
         image.onload = () => resolve();
         image.onerror = () => reject();
       });

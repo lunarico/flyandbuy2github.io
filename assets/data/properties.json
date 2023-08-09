@@ -5,9 +5,9 @@
         "name": "Ella",
         "logo": "../assets/img/propUsa/Ella/ella.jpg",
         "imagenes": [
-          "../assets/img/propUsa/Ella/ella1.jpg",
-          "../assets/img/propUsa/Ella/ella2.jpg",
-          "../assets/img/propUsa/Ella/ella3.jpg"
+          {"src": "../assets/img/propUsa/Ella/ella1.jpg", "alt": "Fachada edificio Ella"},
+          {"src": "../assets/img/propUsa/Ella/ella2.jpg", "alt": "Fachada edificio Ella 2"},
+          {"src": "../assets/img/propUsa/Ella/ella3.jpg", "alt": "Piscina Ella"}
         ]
       },
 
@@ -16,12 +16,12 @@
         "name": "Ora by Casa Tua",
         "logo": "../assets/img/propUsa/Ora/ora.png",
         "imagenes": [
-          "../assets/img/propUsa/Ora/ora1.jpg",
-          "../assets/img/propUsa/Ora/ora2.jpg",
-          "../assets/img/propUsa/Ora/ora3.jpg",
-          "../assets/img/propUsa/Ora/ora4.jpg",
-          "../assets/img/propUsa/Ora/ora5.jpg",
-          "../assets/img/propUsa/Ora/ora6.jpg"
+          {"src": "../assets/img/propUsa/Ora/ora1.jpg", "alt": "Fachada edificio Ora"},
+          {"src": "../assets/img/propUsa/Ora/ora2.jpg", "alt": "Terraza Ora"},
+          {"src": "../assets/img/propUsa/Ora/ora3.jpg", "alt": "Lobby Ora"},
+          {"src": "../assets/img/propUsa/Ora/ora4.jpg", "alt": "Vista Panorámica Bahia"},
+          {"src": "../assets/img/propUsa/Ora/ora5.jpg", "alt": "Zona Piscina Ora"},
+          {"src": "../assets/img/propUsa/Ora/ora6.jpg", "alt": "Zona Espacio Libre Ora"}
         ]
       },
 
@@ -30,41 +30,41 @@
         "name": "The Elser",
         "logo": "../assets/img/propUsa/The-Elser/theElser.png",
         "imagenes": [
-          "../assets/img/propUsa/The-Elser/theElser1.jpg",
-          "../assets/img/propUsa/The-Elser/theElser2.jpg",
-          "../assets/img/propUsa/The-Elser/theElser3.jpg",
-          "../assets/img/propUsa/The-Elser/theElser4.jpg",
-          "../assets/img/propUsa/The-Elser/theElser5.jpg",
-          "../assets/img/propUsa/The-Elser/theElser6.jpg",
-          "../assets/img/propUsa/The-Elser/theElser7.jpg",
-          "../assets/img/propUsa/The-Elser/theElser8.jpg",
-          "../assets/img/propUsa/The-Elser/theElser9.jpg",
-          "../assets/img/propUsa/The-Elser/theElser10.jpg",
-          "../assets/img/propUsa/The-Elser/theElser11.jpg",
-          "../assets/img/propUsa/The-Elser/theElser12.jpg",
-          "../assets/img/propUsa/The-Elser/theElser13.jpg",
-          "../assets/img/propUsa/The-Elser/theElser14.jpg",
-          "../assets/img/propUsa/The-Elser/theElser15.jpg",
-          "../assets/img/propUsa/The-Elser/theElser16.jpg",
-          "../assets/img/propUsa/The-Elser/theElser17.jpg",
-          "../assets/img/propUsa/The-Elser/theElser18.jpg",
-          "../assets/img/propUsa/The-Elser/theElser19.jpg",
-          "../assets/img/propUsa/The-Elser/theElser20.jpg",
-          "../assets/img/propUsa/The-Elser/theElser21.jpg",
-          "../assets/img/propUsa/The-Elser/theElser22.jpg",
-          "../assets/img/propUsa/The-Elser/theElser23.jpg",
-          "../assets/img/propUsa/The-Elser/theElser24.jpg",
-          "../assets/img/propUsa/The-Elser/theElser25.jpg",
-          "../assets/img/propUsa/The-Elser/theElser26.jpg",
-          "../assets/img/propUsa/The-Elser/theElser27.jpg",
-          "../assets/img/propUsa/The-Elser/theElser28.jpg",
-          "../assets/img/propUsa/The-Elser/theElser29.jpg",
-          "../assets/img/propUsa/The-Elser/theElser30.jpg",
-          "../assets/img/propUsa/The-Elser/theElser31.jpg",
-          "../assets/img/propUsa/The-Elser/theElser32.jpg",
-          "../assets/img/propUsa/The-Elser/theElser33.jpg",
-          "../assets/img/propUsa/The-Elser/theElser34.jpg",
-          "../assets/img/propUsa/The-Elser/theElser35.jpg"
+          {"src": "../assets/img/propUsa/The-Elser/theElser1.jpg", "alt": ""},
+          {"src": "../assets/img/propUsa/The-Elser/theElser2.jpg", "alt": ""},
+          {"src": "../assets/img/propUsa/The-Elser/theElser3.jpg", "alt": ""},
+          {"src": "../assets/img/propUsa/The-Elser/theElser4.jpg", "alt": ""},
+          {"src": "../assets/img/propUsa/The-Elser/theElser5.jpg", "alt": ""},
+          {"src": "../assets/img/propUsa/The-Elser/theElser6.jpg", "alt": ""},
+          {"src": "../assets/img/propUsa/The-Elser/theElser7.jpg", "alt": ""},
+          {"src": "../assets/img/propUsa/The-Elser/theElser8.jpg", "alt": ""},
+          {"src": "../assets/img/propUsa/The-Elser/theElser9.jpg", "alt": ""},
+          {"src": "../assets/img/propUsa/The-Elser/theElser10.jpg", "alt": ""},
+          {"src": "../assets/img/propUsa/The-Elser/theElser11.jpg", "alt": ""},
+          {"src": "../assets/img/propUsa/The-Elser/theElser12.jpg", "alt": ""},
+          {"src": "../assets/img/propUsa/The-Elser/theElser13.jpg", "alt": ""},
+          {"src": "../assets/img/propUsa/The-Elser/theElser14.jpg", "alt": ""},
+          {"src": "../assets/img/propUsa/The-Elser/theElser15.jpg", "alt": ""},
+          {"src": "../assets/img/propUsa/The-Elser/theElser16.jpg", "alt": ""},
+          {"src": "../assets/img/propUsa/The-Elser/theElser17.jpg", "alt": ""},
+          {"src": "../assets/img/propUsa/The-Elser/theElser18.jpg", "alt": ""},
+          {"src": "../assets/img/propUsa/The-Elser/theElser19.jpg", "alt": ""},
+          {"src": "../assets/img/propUsa/The-Elser/theElser20.jpg", "alt": ""},
+          {"src": "../assets/img/propUsa/The-Elser/theElser21.jpg", "alt": ""},
+          {"src": "../assets/img/propUsa/The-Elser/theElser22.jpg", "alt": ""},
+          {"src": "../assets/img/propUsa/The-Elser/theElser23.jpg", "alt": ""},
+          {"src": "../assets/img/propUsa/The-Elser/theElser24.jpg", "alt": ""},
+          {"src": "../assets/img/propUsa/The-Elser/theElser25.jpg", "alt": ""},
+          {"src": "../assets/img/propUsa/The-Elser/theElser26.jpg", "alt": ""},
+          {"src": "../assets/img/propUsa/The-Elser/theElser27.jpg", "alt": ""},
+          {"src": "../assets/img/propUsa/The-Elser/theElser28.jpg", "alt": ""},
+          {"src": "../assets/img/propUsa/The-Elser/theElser29.jpg", "alt": ""},
+          {"src": "../assets/img/propUsa/The-Elser/theElser30.jpg", "alt": ""},
+          {"src": "../assets/img/propUsa/The-Elser/theElser31.jpg", "alt": ""},
+          {"src": "../assets/img/propUsa/The-Elser/theElser32.jpg", "alt": ""},
+          {"src": "../assets/img/propUsa/The-Elser/theElser33.jpg", "alt": ""},
+          {"src": "../assets/img/propUsa/The-Elser/theElser34.jpg", "alt": ""},
+          {"src": "../assets/img/propUsa/The-Elser/theElser35.jpg", "alt": ""}
         ]
       },
 
@@ -73,18 +73,18 @@
         "name": "Visions at Brickell Station",
         "logo": "../assets/img/propUsa/Visions/visions.png",
         "imagenes": [
-          "../assets/img/propUsa/Visions/visions1.jpg",
-          "../assets/img/propUsa/Visions/visions2.jpg",
-          "../assets/img/propUsa/Visions/visions3.jpg",
-          "../assets/img/propUsa/Visions/visions4.jpg",
-          "../assets/img/propUsa/Visions/visions5.jpg",
-          "../assets/img/propUsa/Visions/visions6.jpg",
-          "../assets/img/propUsa/Visions/visions7.jpg",
-          "../assets/img/propUsa/Visions/visions8.jpg",
-          "../assets/img/propUsa/Visions/visions9.jpg",
-          "../assets/img/propUsa/Visions/visions10.jpg",
-          "../assets/img/propUsa/Visions/visions11.jpg",
-          "../assets/img/propUsa/Visions/visions12.jpg"
+          {"src": "../assets/img/propUsa/Visions/visions1.jpg", "alt": "Fachada edificio Visions"},
+          {"src": "../assets/img/propUsa/Visions/visions2.jpg", "alt": "Lobby Visions"},
+          {"src": "../assets/img/propUsa/Visions/visions3.jpg", "alt": "Zona Piscina Visions"},
+          {"src": "../assets/img/propUsa/Visions/visions4.jpg", "alt": "Gimnasio Visions"},
+          {"src": "../assets/img/propUsa/Visions/visions5.jpg", "alt": "Bar Visions"},
+          {"src": "../assets/img/propUsa/Visions/visions6.jpg", "alt": "Baño de Habitación"},
+          {"src": "../assets/img/propUsa/Visions/visions7.jpg", "alt": "Habitación 1"},
+          {"src": "../assets/img/propUsa/Visions/visions8.jpg", "alt": "Living Habitación 1"},
+          {"src": "../assets/img/propUsa/Visions/visions9.jpg", "alt": "Habitación 2"},
+          {"src": "../assets/img/propUsa/Visions/visions10.jpg", "alt": "Habitación 2"},
+          {"src": "../assets/img/propUsa/Visions/visions11.jpg", "alt": "Living Habitación 2"},
+          {"src": "../assets/img/propUsa/Visions/visions12.jpg", "alt": "Cocina Habitación 2"}
         ]
       },
 
@@ -93,16 +93,16 @@
         "name": "West Eleventh Residences Miami",
         "logo": "../assets/img/propUsa/West-Eleventh/westEleventh.png",
         "imagenes": [
-          "../assets/img/propUsa/West-Eleventh/westEleventh1.jpg",
-          "../assets/img/propUsa/West-Eleventh/westEleventh2.jpg",
-          "../assets/img/propUsa/West-Eleventh/westEleventh3.jpg",
-          "../assets/img/propUsa/West-Eleventh/westEleventh4.jpg",
-          "../assets/img/propUsa/West-Eleventh/westEleventh5.jpg",
-          "../assets/img/propUsa/West-Eleventh/westEleventh6.jpg",
-          "../assets/img/propUsa/West-Eleventh/westEleventh7.jpg",
-          "../assets/img/propUsa/West-Eleventh/westEleventh8.jpg",
-          "../assets/img/propUsa/West-Eleventh/westEleventh9.jpg",
-          "../assets/img/propUsa/West-Eleventh/westEleventh10.jpg"
+          {"src": "../assets/img/propUsa/West-Eleventh/westEleventh1.jpg", "alt": "Vista Panorámica Bahía"},
+          {"src": "../assets/img/propUsa/West-Eleventh/westEleventh2.jpg", "alt": "Zona piscina West Eleventh"},
+          {"src": "../assets/img/propUsa/West-Eleventh/westEleventh3.jpg", "alt": "Zona piscina West Eleventh"},
+          {"src": "../assets/img/propUsa/West-Eleventh/westEleventh4.jpg", "alt": "Bar West Eleventh"},
+          {"src": "../assets/img/propUsa/West-Eleventh/westEleventh5.jpg", "alt": "Baño de Habitación"},
+          {"src": "../assets/img/propUsa/West-Eleventh/westEleventh6.jpg", "alt": "Fachada edificio West Eleventh"},
+          {"src": "../assets/img/propUsa/West-Eleventh/westEleventh7.jpg", "alt": "Habitación 1"},
+          {"src": "../assets/img/propUsa/West-Eleventh/westEleventh8.jpg", "alt": "Zona Espacio Libre West Eleventh"},
+          {"src": "../assets/img/propUsa/West-Eleventh/westEleventh9.jpg", "alt": "Restaurante West Eleventh"},
+          {"src": "../assets/img/propUsa/West-Eleventh/westEleventh10.jpg", "alt": "Habitación 2"}
         ]
       },
 
@@ -111,7 +111,7 @@
         "name": "Domus Brickell Park",
         "logo": "../assets/img/propUsa/Domus/domus.png",
         "imagenes": [
-          "../assets/img/propUsa/Domus/domus1.jpg"
+          {"src": "../assets/img/propUsa/Domus/domus1.jpg", "alt": "Fachada edificio Domus"}
         ]
       },
 
@@ -120,9 +120,9 @@
         "name": "Urban Living With Character",
         "logo": "../assets/img/propUsa/Urban/urban.jpg",
         "imagenes": [
-          "../assets/img/propUsa/Urban/urban1.jpg",
-          "../assets/img/propUsa/Urban/urban2.jpg",
-          "../assets/img/propUsa/Urban/urban3.jpg"
+          {"src": "../assets/img/propUsa/Urban/urban1.jpg", "alt": "Living de Habitación"},
+          {"src": "../assets/img/propUsa/Urban/urban2.jpg", "alt": "Dormitorio"},
+          {"src": "../assets/img/propUsa/Urban/urban3.jpg", "alt": "Baño de Habitación"}
         ]
       }
     ],

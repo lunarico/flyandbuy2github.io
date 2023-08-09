@@ -1773,7 +1773,7 @@ footer #copy {
 }
 
 #logo-description img {
-  width: 10em;
+  width: 12em;
 }
 
 #logo-description span {
@@ -1868,7 +1868,7 @@ footer #copy {
 
 @media (max-width: 1400px) {
   #logo-description img {
-    width: 8em;
+    width: 10em;
   }
 
   #logo-description span h1{
@@ -1928,7 +1928,7 @@ footer #copy {
   }
 
   #logo-description img {
-    width: 7em;
+    width: 8.5em;
   }
 
   #logo-description span {
@@ -1993,7 +1993,7 @@ footer #copy {
 }
 @media (max-width: 992px) {
   #logo-description img {
-    width: 6em;
+    width: 7em;
   }
 
   #logo-description span {
@@ -2051,7 +2051,7 @@ footer #copy {
   }
 
   #logo-description img {
-    width: 5em;
+    width: 5.5em;
   }
 
   #logo-description span {

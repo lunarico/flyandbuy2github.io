@@ -1773,11 +1773,10 @@ footer #copy {
 }
 
 #logo-description img {
-  width: 12em;
+  width: 10em;
 }
 
 #logo-description span {
-  margin-left: -3em;
   text-transform: uppercase;
 }
 
@@ -1868,7 +1867,7 @@ footer #copy {
 
 @media (max-width: 1400px) {
   #logo-description img {
-    width: 10em;
+    width: 8em;
   }
 
   #logo-description span h1{
@@ -1928,11 +1927,7 @@ footer #copy {
   }
 
   #logo-description img {
-    width: 8.5em;
-  }
-
-  #logo-description span {
-    margin-left: -2.5em;
+    width: 7em;
   }
 
   #logo-description span h1{
@@ -1993,11 +1988,7 @@ footer #copy {
 }
 @media (max-width: 992px) {
   #logo-description img {
-    width: 7em;
-  }
-
-  #logo-description span {
-    margin-left: -2em;
+    width: 5.5em;
   }
 
   #logo-description span h1{
@@ -2052,11 +2043,7 @@ footer #copy {
   }
 
   #logo-description img {
-    width: 5.5em;
-  }
-
-  #logo-description span {
-    margin-left: -1.5em;
+    width: 4.75em;
   }
 
   #logo-description span h1 {
@@ -2121,10 +2108,6 @@ footer #copy {
 @media (max-width: 576px) {
   #logo-description img {
     width: 4em;
-  }
-
-  #logo-description span {
-    margin-left: -1em;
   }
 
   #logo-description span h1 {

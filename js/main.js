@@ -56,9 +56,13 @@ document.addEventListener('DOMContentLoaded', function() {
     navMenu.classList.toggle('active');
     navbarToggle.classList.toggle('active');
     nav.classList.toggle('open-nav');
-    navbarToggle.classList.replace('fa-bars', 'fa-xmark');
+  
+    if (navbarToggle.classList.contains('active')) {
+      navbarToggle.classList.replace('fa-bars', 'fa-xmark');
+    } else {
+      navbarToggle.classList.replace('fa-xmark', 'fa-bars');
+    }
   });
-
 });
 
 

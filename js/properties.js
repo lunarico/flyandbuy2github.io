@@ -220,7 +220,7 @@ let swiper;
         <img src="../assets/img/logoBlack.png" alt="Logo Fly and Buy">
         <span>
           <h1 class="title">Fly and buy</h1>
-          <p class="title">Travel and real state advisor</p>
+          <p class="title">Travel and real estate advisor</p>
         </span>
       </div>
       <h3>${propertyName}</h3>
